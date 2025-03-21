@@ -1,5 +1,3 @@
-// 文件路径: WMB/app/go.mod
-
 module github.com/wumindang/WMB/app
 
 go 1.23.0
