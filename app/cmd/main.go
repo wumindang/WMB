@@ -19,6 +19,7 @@ func main() {
 	rootCmd.AddCommand(keygenCmd)
 	rootCmd.AddCommand(signCmd)
 	rootCmd.AddCommand(broadcastCmd)
+	rootCmd.AddCommand(nodesCmd) // 新增
 
 	if err := rootCmd.Execute(); err != nil {
 		fmt.Println(err)
