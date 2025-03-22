@@ -1,23 +1,35 @@
-# 文件路径: Cargo.toml
-# 项目基本信息
 [package]
-name = "wmb"         # 项目名称
-version = "0.1.0"    # 版本号
-edition = "2021"     # Rust 版本
+name = "wmb"
+version = "0.1.0"
+edition = "2021"
 
-# 项目依赖
 [dependencies]
-serde = { version = "1.0", features = ["derive"] }          # 序列化和反序列化库
-serde_json = "1.0"                                         # JSON 序列化库
-sha2 = "0.10"                                              # SHA-2 哈希算法
-secp256k1 = "0.24"                                         # 椭圆曲线加密库
+serde = { version = "1.0", features = ["derive"] }          # 序列化和反序列化
+serde_json = "1.0"                                         # JSON 处理
+sha2 = "0.10"                                              # SHA256 哈希
+secp256k1 = { version = "0.24", features = ["rand-std"] }  # ECDSA 签名，启用随机数特性
 rand = "0.8"                                               # 随机数生成
-libp2p = { version = "0.51", features = ["tcp", "async-std", "noise", "yamux", "floodsub", "mdns", "macros"] }  # P2P 网络库，启用 macros
+libp2p = { version = "0.51", features = ["tcp", "async-std", "noise", "yamux", "floodsub", "mdns", "macros"] } # P2P 网络
 bincode = "1.3"                                            # 二进制序列化
-futures = "0.3"                                            # 异步编程支持
-evm = "0.39"                                               # 以太坊虚拟机
-primitive-types = "0.12"                                   # 基础类型支持
-sha3 = "0.10"                                              # Keccak/SHA-3 哈希算法
+futures = "0.3"                                            # 异步编程
+evm = "0.39"                                               # EVM 虚拟机
+primitive-types = "0.12"                                   # 基本类型
+sha3 = "0.10"                                              # Keccak256 哈希
 hex = "0.4"                                                # 十六进制编码
-clap = { version = "4.5", features = ["derive"] }          # 命令行解析库
-chrono = "0.4"                                             # 时间处理库
+clap = { version = "4.5", features = ["derive"] }          # 命令行解析
+chrono = "0.4"                                             # 时间处理
+
+[[bin]]
+name = "wmb"
+path = "main.rs"
+[workspace]
+members = [
+    "core",
+    "application",
+    "interface",
+    "desktop/super_node",
+    "desktop/national_node",
+    "desktop/provincial_node",
+    "desktop/bank_node",
+    "desktop/full_node",
+]

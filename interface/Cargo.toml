@@ -1,0 +1,10 @@
+[package]
+name = "wmb-interface"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "mod.rs"  # 模块入口指向 mod.rs
+
+[dependencies]
+wmb-core = { path = "../core" }  # 依赖核心层
