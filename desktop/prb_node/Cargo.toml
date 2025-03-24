@@ -1,5 +1,5 @@
 [package]
-name = "wmb_super_node"  # 中文注释：超级节点前端软件名称
+name = "wmb_prb_node"  # 中文注释：省储备银行节点前端软件名称
 version = "0.1.0"
 edition = "2021"
 

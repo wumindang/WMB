@@ -1,11 +1,7 @@
 [workspace]
 members = [
-    "smart_contracts/contract1",
-    "smart_contracts/contract2",
-    "smart_contracts/contract3",
-    "dapps/dex",
-    "dapps/did",
-    "dapps/vote",
+    "wuminbi",    # 中文注释：Wuminbi 手机端前端软件
+    "wumiinapp",  # 中文注释：Wumiinapp 手机端前端软件
 ]
 
 [dependencies]

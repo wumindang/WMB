@@ -1,11 +1,11 @@
 [package]
-name = "interface"  # 中文注释：接口层 crate 名称
+name = "extension"  # 中文注释：扩展层 crate 名称
 version = "0.1.0"
 edition = "2021"
 
 [workspace]
 members = [
-    ".",  # 中文注释：表示当前目录为接口层唯一的 crate
+    ".",  # 中文注释：表示当前目录为扩展层唯一的 crate
 ]
 
 [dependencies]
@@ -13,5 +13,6 @@ core = { path = "../core" }              # 中文注释：依赖核心层
 security = { path = "../security" }      # 中文注释：依赖安全层
 storage = { path = "../storage" }        # 中文注释：依赖存储层
 network = { path = "../network" }        # 中文注释：依赖网络层
+interface = { path = "../interface" }    # 中文注释：依赖接口层
 serde = { version = "1.0", features = ["derive"] }  # 中文注释：序列化/反序列化支持
 tokio = { version = "1.0", features = ["full"] }    # 中文注释：异步运行时

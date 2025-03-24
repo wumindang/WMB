@@ -1,5 +1,5 @@
 [package]
-name = "wmb_super_node"  # 中文注释：超级节点前端软件名称
+name = "wmb_nrc_node"  # 中文注释：国储会节点前端软件名称
 version = "0.1.0"
 edition = "2021"
 
@@ -10,5 +10,5 @@ storage = { path = "../../storage" }
 network = { path = "../../network" }
 interface = { path = "../../interface" }
 extension = { path = "../../extension" }
-clap = { version = "4.0", features = ["derive"] }  # 中文注释：命令行解析
-tokio = { version = "1.0", features = ["full"] }   # 中文注释：异步运行时
+clap = { version = "4.0", features = ["derive"] }
+tokio = { version = "1.0", features = ["full"] }

@@ -1,10 +1,16 @@
-[package]
-name = "wmb-desktop"
-version = "0.1.0"
-edition = "2021"
-
-[lib]
-path = "mod.rs"  # 模块入口指向 mod.rs
+[workspace]
+members = [
+    "super_node",  # 中文注释：超级节点前端软件
+    "nrc_node",    # 中文注释：国家储备委员会节点前端软件
+    "prc_node",    # 中文注释：省储备委员会节点前端软件
+    "prb_node",    # 中文注释：省储备银行节点前端软件
+    "full_node",   # 中文注释：全节点前端软件
+]
 
 [dependencies]
-wmb-core = { path = "../core" }  # 依赖核心层
+core = { path = "../core" }
+security = { path = "../security" }
+storage = { path = "../storage" }
+network = { path = "../network" }
+interface = { path = "../interface" }
+extension = { path = "../extension" }

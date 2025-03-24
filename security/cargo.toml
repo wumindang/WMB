@@ -1,0 +1,13 @@
+[package]
+name = "security"  # 中文注释：安全层 crate 名称
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = [
+    ".",  # 中文注释：表示当前目录为安全层唯一的 crate
+]
+
+[dependencies]
+core = { path = "../core" }  # 中文注释：依赖核心层
+sha2 = "0.10"               # 中文注释：SHA-2 哈希算法库

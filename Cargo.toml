@@ -18,18 +18,23 @@ sha3 = "0.10"                                              # Keccak256 哈希
 hex = "0.4"                                                # 十六进制编码
 clap = { version = "4.5", features = ["derive"] }          # 命令行解析
 chrono = "0.4"                                             # 时间处理
+wmb_core = { path = "core" }
+wmb_security = { path = "security" }
+wmb_storage = { path = "storage" }
+wmb_network = { path = "network" }
 
 [[bin]]
 name = "wmb"
 path = "main.rs"
 [workspace]
 members = [
-    "core",
-    "application",
-    "interface",
-    "desktop/super_node",
-    "desktop/national_node",
-    "desktop/provincial_node",
-    "desktop/bank_node",
-    "desktop/full_node",
+    "core",           //核心层
+    "security",       //安全层
+    "storage",        //存储层
+    "network",        //网络层
+    "interface",      //接口层
+    "extension",      //扩展层
+    "application",    //应用层
+    "utils/init",     //管理层
+    "desktop",        //电脑前端节点软件（含macOS Linux、Windows）
 ]

@@ -1,11 +1,8 @@
 [workspace]
 members = [
-    "smart_contracts/contract1",
-    "smart_contracts/contract2",
-    "smart_contracts/contract3",
-    "dapps/dex",
-    "dapps/did",
-    "dapps/vote",
+    "init",
+    "send_tx",
+    "check_blocks",
 ]
 
 [dependencies]

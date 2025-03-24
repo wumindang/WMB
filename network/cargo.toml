@@ -1,0 +1,15 @@
+[package]
+name = "network"  # 中文注释：网络层 crate 名称
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = [
+    ".",  # 中文注释：表示当前目录为网络层唯一的 crate
+]
+
+[dependencies]
+core = { path = "../core" }              # 中文注释：依赖核心层
+tokio = { version = "1.0", features = ["full"] }  # 中文注释：异步运行时
+serde = { version = "1.0", features = ["derive"] }  # 中文注释：序列化/反序列化支持
+bincode = "1.3"  # 中文注释：二进制序列化库

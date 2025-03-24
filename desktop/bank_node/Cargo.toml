@@ -1,8 +1,0 @@
-[package]
-name = "bank_node"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-tauri = "1.0"
-serde = "1.0"
