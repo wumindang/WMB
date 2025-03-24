@@ -1,13 +1,9 @@
-[package]
-name = "security"  # 中文注释：安全层 crate 名称
-version = "0.1.0"
-edition = "2021"
-
-[workspace]
+[workspace]  # 中文注释：定义安全层工作空间，管理多个安全模块
 members = [
-    ".",  # 中文注释：表示当前目录为安全层唯一的 crate
+    "basic",      # 中文注释：基础安全模块，提供 ECDSA 签名和加密
+    "threshold",  # 中文注释：门限签名模块，提供分布式签名功能
+    "mfa"         # 中文注释：多因子认证模块，提供密码+验证码验证
 ]
 
-[dependencies]
+[dependencies]  # 中文注释：共享依赖
 core = { path = "../core" }  # 中文注释：依赖核心层
-sha2 = "0.10"               # 中文注释：SHA-2 哈希算法库

@@ -1,0 +1,8 @@
+[package]  # 中文注释：定义 SQLite 存储模块为库 crate
+name = "sqlite"      # 中文注释：SQLite 存储模块名称
+version = "0.1.0"    # 中文注释：版本号
+edition = "2021"     # 中文注释：Rust 版本
+
+[dependencies]
+core = { path = "../../core" }  # 中文注释：依赖核心层
+rusqlite = { version = "0.29.0", features = ["bundled"] }  # 中文注释：SQLite 数据库支持

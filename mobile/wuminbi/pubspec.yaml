@@ -1,13 +1,14 @@
 name: wuminbi
-description: 五民币访客轻节点应用端
+description: Wuminbi 手机端前端软件
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=2.18.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  http: ^0.13.5  # 中文注释：用于网络请求
 
 dev_dependencies:
   flutter_test:

@@ -1,14 +1,11 @@
-[package]
-name = "core"  # 中文注释：核心层 crate 名称
-version = "0.1.0"
-edition = "2021"
-
-[workspace]
-members = [
-    ".",  # 中文注释：表示当前目录为核心层唯一的 crate
-]
+[package]  # 中文注释：定义核心层为单一 crate
+name = "core"        # 中文注释：核心层名称
+version = "0.1.0"    # 中文注释：版本号
+edition = "2021"     # 中文注释：Rust 版本
 
 [dependencies]
 security = { path = "../security" }  # 中文注释：依赖安全层
 storage = { path = "../storage" }    # 中文注释：依赖存储层
 network = { path = "../network" }    # 中文注释：依赖网络层
+ipfs-api = "0.6.0"   # 中文注释：引入 IPFS API 库，支持 IPFS 操作
+serde = { version = "1.0", features = ["derive"] }  # 中文注释：序列化支持（可选）

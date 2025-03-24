@@ -29,12 +29,12 @@ path = "main.rs"
 [workspace]
 members = [
     "core",           //核心层
-    "security",       //安全层
+    "security",       //安全层  子工作空间
     "storage",        //存储层
     "network",        //网络层
     "interface",      //接口层
-    "extension",      //扩展层
-    "application",    //应用层
-    "utils/init",     //管理层
-    "desktop",        //电脑前端节点软件（含macOS Linux、Windows）
+    "extension",      //扩展层  子工作空间
+    "application",    //应用层  子工作空间
+    "utils/init",     //管理层  子工作空间  
+    "desktop",        //桌面端  子工作空间  节点前端软件（含macOS Linux、Windows）
 ]

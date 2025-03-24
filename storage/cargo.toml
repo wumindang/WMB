@@ -1,11 +1,7 @@
-[package]
-name = "storage"  # 中文注释：存储层 crate 名称
-version = "0.1.0"
-edition = "2021"
-
-[workspace]
+[workspace]  # 中文注释：定义存储层工作空间，管理多个存储模块
 members = [
-    ".",  # 中文注释：表示当前目录为存储层唯一的 crate
+    "ipfs",      # 中文注释：IPFS 存储模块，适用于数据归档节点
+    "sqlite"     # 中文注释：SQLite 存储模块，适用于所有节点
 ]
 
 [dependencies]

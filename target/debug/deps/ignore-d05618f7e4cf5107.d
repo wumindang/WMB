@@ -1,0 +1,12 @@
+/Users/wumindang/Documents/WMB/target/debug/deps/libignore-d05618f7e4cf5107.rmeta: /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/lib.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/default_types.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/dir.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/gitignore.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/overrides.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/pathutil.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/types.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/walk.rs
+
+/Users/wumindang/Documents/WMB/target/debug/deps/ignore-d05618f7e4cf5107.d: /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/lib.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/default_types.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/dir.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/gitignore.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/overrides.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/pathutil.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/types.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/walk.rs
+
+/Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/lib.rs:
+/Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/default_types.rs:
+/Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/dir.rs:
+/Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/gitignore.rs:
+/Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/overrides.rs:
+/Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/pathutil.rs:
+/Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/types.rs:
+/Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ignore-0.4.23/src/walk.rs:

@@ -65,3 +65,33 @@ mod tests {
         assert!(result.is_ok(), "中文注释：广播应成功");
     }
 }
+
+use ipfs_api::{IpfsClient, TryFromUri};  // 中文注释：引入 IPFS 客户端
+use std::error::Error;
+
+pub struct Core {
+    ipfs_client: IpfsClient,  // 中文注释：IPFS 客户端实例
+}
+
+impl Core {
+    // 中文注释：创建核心层实例，初始化 IPFS 客户端
+    pub fn new() -> Self {
+        let ipfs_client = IpfsClient::from_str("http://localhost:5001").unwrap();  // 中文注释：默认本地 IPFS 节点
+        Core { ipfs_client }
+    }
+
+    // 中文注释：存储数据到 IPFS，返回哈希
+    pub async fn ipfs_store(&self, data: &str) -> Result<String, Box<dyn Error>> {
+        let mut buffer = Vec::new();
+        buffer.extend_from_slice(data.as_bytes());  // 中文注释：将数据转为字节流
+        let response = self.ipfs_client.add(&buffer[..]).await?;  // 中文注释：调用 IPFS add 接口
+        Ok(response.hash)  // 中文注释：返回 IPFS 哈希
+    }
+
+    // 中文注释：从 IPFS 获取数据，通过哈希读取
+    pub async fn ipfs_get(&self, hash: &str) -> Result<String, Box<dyn Error>> {
+        let bytes = self.ipfs_client.cat(hash).await?;  // 中文注释：调用 IPFS cat 接口
+        let data = String::from_utf8(bytes.collect())?;  // 中文注释：将字节流转为字符串
+        Ok(data)  // 中文注释：返回数据内容
+    }
+}

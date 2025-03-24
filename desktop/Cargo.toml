@@ -1,16 +1,16 @@
 [workspace]
 members = [
     "super_node",  # 中文注释：超级节点前端软件
-    "nrc_node",    # 中文注释：国家储备委员会节点前端软件
+    "nrc_node",    # 中文注释：国储会节点前端软件
     "prc_node",    # 中文注释：省储备委员会节点前端软件
     "prb_node",    # 中文注释：省储备银行节点前端软件
-    "full_node",   # 中文注释：全节点前端软件
+    "full_node"    # 中文注释：全节点前端软件
 ]
 
 [dependencies]
-core = { path = "../core" }
-security = { path = "../security" }
-storage = { path = "../storage" }
-network = { path = "../network" }
-interface = { path = "../interface" }
-extension = { path = "../extension" }
+core = { path = "../core" }          # 中文注释：依赖核心层
+security = { path = "../security" }  # 中文注释：依赖安全层
+storage = { path = "../storage" }    # 中文注释：依赖存储层
+network = { path = "../network" }    # 中文注释：依赖网络层
+interface = { path = "../interface" }  # 中文注释：依赖接口层
+extension = { path = "../extension" }  # 中文注释：依赖扩展层
