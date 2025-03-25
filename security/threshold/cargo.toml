@@ -1,8 +1,0 @@
-[package]  # 中文注释：定义门限签名模块为库 crate
-name = "threshold"   # 中文注释：门限签名模块名称
-version = "0.1.0"    # 中文注释：版本号
-edition = "2021"     # 中文注释：Rust 版本
-
-[dependencies]
-core = { path = "../../core" }        # 中文注释：依赖核心层
-basic = { path = "../basic" }         # 中文注释：依赖基础安全模块

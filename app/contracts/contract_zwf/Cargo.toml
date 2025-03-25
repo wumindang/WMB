@@ -1,0 +1,14 @@
+[package]
+name = "contract_zwf"  # 中文注释：智能合约 zwf 名称
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "contract_zwf"
+path = "src/lib.rs"
+
+
+[dependencies]
+core = { path = "../../../core" }      # 中文注释：依赖核心层
+security = { path = "../../../security" }  # 中文注释：依赖安全层
+tokio = { version = "1.0", features = ["full"] }  # 中文注释：异步运行时

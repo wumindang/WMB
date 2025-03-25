@@ -1,9 +1,0 @@
-[package]
-name = "wmb_contract1"  # 中文注释：智能合约 1 名称
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-wmb_core = { path = "../../../core" }      # 中文注释：依赖核心层
-wmb_security = { path = "../../../security" }  # 中文注释：依赖安全层
-tokio = { version = "1.0", features = ["full"] }  # 中文注释：异步运行时

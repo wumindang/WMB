@@ -1,9 +1,0 @@
-[package]
-name = "wmb_init"  # 中文注释：初始化工具名称
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-wmb_core = { path = "../../core" }      # 中文注释：依赖核心层
-wmb_storage = { path = "../../storage" }    # 中文注释：依赖存储层
-clap = { version = "4.0", features = ["derive"] }  # 中文注释：命令行解析库

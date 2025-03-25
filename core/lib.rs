@@ -4,6 +4,10 @@ pub mod consensus;   // 共识机制模块
 pub mod nodes;       // 节点管理模块
 pub mod wallet;      // 钱包模块
 
+[lib]
+name = "core"
+path = "src/lib.rs"
+
 // 中文注释：公开导出 Block 和 Wallet，方便外部使用
 pub use blockchain::Block;
 pub use wallet::Wallet;

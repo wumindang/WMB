@@ -1,0 +1,11 @@
+[package]  # 中文注释：定义 API 子模块
+name = "api"
+version = "0.1.0"
+edition = "2021"
+
+[lib]  # 中文注释：指定这是一个库
+name = "api"
+path = "src/lib.rs"
+
+[dependencies]
+core = { path = "../../core" }  # 中文注释：依赖核心层

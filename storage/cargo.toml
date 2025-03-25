@@ -1,8 +1,0 @@
-[workspace]  # 中文注释：定义存储层工作空间，管理多个存储模块
-members = [
-    "ipfs",      # 中文注释：IPFS 存储模块，适用于数据归档节点
-    "sqlite"     # 中文注释：SQLite 存储模块，适用于所有节点
-]
-
-[dependencies]
-core = { path = "../core" }  # 中文注释：依赖核心层

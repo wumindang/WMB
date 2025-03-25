@@ -3,9 +3,21 @@ name = "core"        # 中文注释：核心层名称
 version = "0.1.0"    # 中文注释：版本号
 edition = "2021"     # 中文注释：Rust 版本
 
+[lib]  # 中文注释：明确指定这是一个库项目
+name = "core"        # 中文注释：库名称，与 package name 一致
+path = "lib.rs"      # 中文注释：指定 lib.rs 在 core/ 目录下（而不是 src/）
+
 [dependencies]
-security = { path = "../security" }  # 中文注释：依赖安全层
-storage = { path = "../storage" }    # 中文注释：依赖存储层
-network = { path = "../network" }    # 中文注释：依赖网络层
+basic = { path = "../security/basic" }  # 依赖安全层-基础安全模块
+mfa = { path = "../security/mfa" }  # 依赖安全层-多因子认证模块
+threshold = { path = "../security/threshold" }  # 依赖安全层-门限签名模块
+ipfs = { path = "../storage/ipfs" }       # 中文注释：依赖 storage 的 ipfs 模块
+sqlite = { path = "../storage/sqlite" }   # 中文注释：依赖 storage 的 sqlite 模块
+broadcast_super_node = { path = "../network/broadcast_super_node" }       # 中文注释：依赖 network 的超级基础安全模块
+broadcast_other_nodes = { path = "../network/broadcast_other_nodes" }     # 中文注释：依赖 network 的其他基础安全模块
+api = { path = "../interface/api" }  # 中文注释：依赖 interface 的 api 模块
+cli = { path = "../interface/cli" }  # 中文注释：依赖 interface接口层的 cli 模块
+kzc_zwf = { path = "../extension/kzc_zwf" }  # 中文注释：依赖 扩展层extension 的占位符zwf子模块
 ipfs-api = "0.6.0"   # 中文注释：引入 IPFS API 库，支持 IPFS 操作
 serde = { version = "1.0", features = ["derive"] }  # 中文注释：序列化支持（可选）
+tokio = { version = "1.0", features = ["full"] }  # 中文注释：添加 tokio 支持异步操作（根据你的 lib.rs 代码需要）

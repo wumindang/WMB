@@ -1,8 +1,0 @@
-[package]
-name = "wmb_check_blocks"  # 中文注释：区块查询工具名称
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-wmb_interface = { path = "../../interface" }  # 中文注释：依赖接口层
-clap = { version = "4.0", features = ["derive"] }  # 中文注释：命令行解析库
