@@ -1,33 +1,24 @@
-use super_node_broadcast::{SuperNodeBroadcast, Peer, Block, Transaction};
-use other_nodes_broadcast::{OtherNodesBroadcast, NodeRole};
-use std::thread;
-use std::time::Duration;
+use core::{HDWallet, OnlyWallet, PrbWallet, NodeType}; // 直接使用 core crate
 
-fn main() {
-    // 初始化对等节点列表
-    let peers = vec![
-        Peer { id: "nrc_node_1".to_string(), address: "192.168.1.101:5001".to_string() },
-        Peer { id: "prc_node_1".to_string(), address: "192.168.1.102:5001".to_string() },
-    ];
+fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let prb_wallet = PrbWallet::new("prb_node_gds_0001".to_string(), 0)?;
+    let prb_tx = prb_wallet.generate_transaction_address()?;
+    let prb_stake = prb_wallet.generate_staking_address()?;
+    println!("省储行权益节点助记词: {}", prb_wallet.get_mnemonic());
+    println!("交易地址: {}", prb_tx);
+    println!("质押地址: {}", prb_stake);
 
-    // 测试超级节点广播
-    println!("开始测试超级节点广播...");
-    let mut super_bm = SuperNodeBroadcast::new("super_node_1".to_string(), peers.clone());
-    let block = Block { height: 1, data: vec![1, 2, 3] };
-    super_bm.broadcast_block(block.clone()); // 初始化时广播
-    super_bm.set_initialized();              // 设置初始化完成
-    super_bm.broadcast_block(block);         // 不再广播
+    let nrp_wallet = OnlyWallet::new(NodeType::NationalNode, "nrp_node_0001".to_string(), 1)?;
+    let nrp_tx = nrp_wallet.generate_transaction_address()?;
+    println!("\n国储会权威节点助记词: {}", nrp_wallet.get_mnemonic());
+    println!("交易地址: {}", nrp_tx);
 
-    // 测试其他归档节点广播
-    println!("开始测试其他归档节点广播...");
-    let full_bm = OtherNodesBroadcast::new(NodeRole::FullNode, "full_node_1".to_string(), peers.clone());
-    let tx = Transaction { id: "tx1".to_string(), data: vec![4, 5, 6] };
-    full_bm.broadcast_transaction(tx);
+    let full_wallet = HDWallet::new(NodeType::FullNode, "full_node_001".to_string(), 2)?;
+    println!("\n全节点助记词: {}", full_wallet.get_mnemonic());
+    for i in 0..3 {
+        let tx_address = full_wallet.generate_transaction_address(i)?;
+        println!("交易地址 {}: {}", i, tx_address);
+    }
 
-    let nrc_bm = OtherNodesBroadcast::new(NodeRole::NrcNode, "nrc_node_1".to_string(), peers);
-    let block2 = Block { height: 2, data: vec![7, 8, 9] };
-    nrc_bm.broadcast_block(block2);
-
-    thread::sleep(Duration::from_millis(500)); // 等待所有广播完成
-    println!("WMB 广播功能测试完成");
+    Ok(())
 }

@@ -1,0 +1,17 @@
+[package]
+name = "WMB"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "WMB"
+path = "main.rs"
+
+[workspace]
+members = ["core"]
+edition = "2021"
+resolver = "2"  # 解决警告，统一使用 2021 版解析器
+
+[dependencies]
+core = { path = "core" }
+rand = "0.8"
