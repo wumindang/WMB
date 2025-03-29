@@ -4,6 +4,7 @@ use secp256k1::Secp256k1;
 use tiny_keccak::{Hasher, Keccak};
 use std::str::FromStr;
 use super::NodeType;
+use rand::thread_rng;
 
 pub struct OnlyWallet {
     mnemonic: Bip39Mnemonic, // 助记词
@@ -41,15 +42,27 @@ impl OnlyWallet {
         // 固定路径：m/44'/888'/<account>'/0/0
         let path = format!("m/44'/888'/{}'/0/0", self.account_index);
         let secp = Secp256k1::new();
+        
+        // 解析 BIP-32 派生路径
         let derivation_path = DerivationPath::from_str(&path)?;
-        let root = XPrv::derive_from_path(&self.seed, &derivation_path)?; // 修正私钥派生方法
+        
+        // 通过种子创建根私钥
+        let root = XPrv::derive_from_path(&self.seed, &derivation_path)?;
+        
+        // 使用 secp256k1 进行私钥派生
         let child = root.derive_priv(&secp, &derivation_path)?;
+        
+        // 获取公钥，并转换为未压缩格式
         let public_key = child.public_key();
-        let pub_bytes = public_key.serialize_uncompressed()[1..].to_vec();
+        let pub_bytes = public_key.serialize_uncompressed();
+        
+        // 以太坊地址计算：Keccak-256 哈希公钥，并取最后 20 字节
         let mut hasher = Keccak::v256();
-        hasher.update(&pub_bytes);
+        hasher.update(&pub_bytes[1..]); // 去掉第一个字节（前缀）
         let mut hash = [0u8; 32];
         hasher.finalize(&mut hash);
+        
+        // 以太坊地址由 Keccak-256 哈希的后 20 字节组成
         Ok(format!("0x{}", hex::encode(&hash[12..])))
     }
 }

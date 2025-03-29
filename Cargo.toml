@@ -14,4 +14,4 @@ resolver = "2"  # 解决警告，统一使用 2021 版解析器
 
 [dependencies]
 core = { path = "core" }
-rand = "0.8"
+rand = "0.9.0"
