@@ -1,1 +1,0 @@
-{"rustc":4723136837156968084,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[9689903380558560274,"build_script_build",false,11431647102714173755]],"local":[{"RerunIfChanged":{"output":"release/build/serde-bcd8919cb200f272/output","paths":["build.rs"]}}],"rustflags":[],"config":0,"compile_kind":0}
