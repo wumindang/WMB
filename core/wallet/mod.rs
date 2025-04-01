@@ -12,8 +12,8 @@ pub use prb_wallet::PrbWallet;
 #[derive(Debug, Clone, PartialEq)]
 pub enum NodeType {
     SuperNode,         // 超级节点 (super_node)
-    NationalNode,      // 国储会权威节点 (nrp_node)
-    ProvincialAuthNode,// 省储会权威节点 (pra_nodes)
+    NationalNode,      // 国储会权威节点 (nrc_node)
+    ProvincialAuthNode,// 省储会权威节点 (prc_nodes)
     ProvincialBankNode,// 省储行权益节点 (prb_nodes)
     CitizenNode,       // 公民轻节点 (citizen_nodes)
     FullNode,          // 全节点 (full_nodes)
