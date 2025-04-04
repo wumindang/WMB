@@ -2,6 +2,7 @@
 pub mod hd_wallet;
 pub mod only_wallet;
 pub mod prb_wallet;
+pub mod wallet;
 
 // 导出公共接口，方便外部使用
 pub use hd_wallet::HDWallet;

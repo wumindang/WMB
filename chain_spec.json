@@ -1,7 +1,7 @@
 {
     "name": "wuminbi_blockchain",
     "id": "880711",
-    "protocolId": "wbc_1",
+    "protocolId": "wbc_0.0.0.1",
     "bootNodes": [
       "/ip4/192.168.1.1/tcp/30333/p2p/12D3KooWABC...",
       "/ip4/192.168.1.2/tcp/30333/p2p/12D3KooWNode001...",
