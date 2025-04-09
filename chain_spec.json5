@@ -1,8 +1,8 @@
 {
-  "name": "wuminbi_blockchain",                    // 区块链名称，显示“五民币区块链”
-  "id": "880711",                                  // 区块链唯一标识符
-  "protocolId": "wbc_0.0.0.1",                     // 网络协议标识符，"wbc"是五民币区块链的简称，"数字"是版本号
-  "bootNodes": [                                   // 引导节点列表，帮助新节点加入网络，IP地址+Peer ID地址
+  "name": "wuminbi_blockchain",         // 区块链名称，显示“五民币区块链”
+  "id": "880711",                       // 区块链唯一标识符
+  "protocolId": "wmb_0.0.0.1",          // 网络协议标识符，"wmb"是五民币区块链的简称，"数字"是版本号
+  "bootNodes": [                        // 引导节点列表，帮助新节点加入网络，IP地址+PeerID地址
     "/ip4/192.168.1.1/tcp/30333/p2p/12D3KooWABC...",      // 国储会权威节点
     "/ip4/192.168.1.2/tcp/30333/p2p/12D3KooWNode001...",  // 中枢省权威节点
     "/ip4/192.168.1.3/tcp/30333/p2p/12D3KooWNode002...",  // 岭南省权威节点
@@ -54,119 +54,401 @@
       "system": {                       // 系统模块，存储运行时字节码和基础配置
         "code": "0x1234..."             // WASM 运行时字节码，定义链的逻辑，需替换为实际编译值
       },
-      "genesis philosophy": {    // 创世理念模块
-        "declaration of wumin": "先有人类后有国家，是公民建立国家，国家是公民的国家，是公民治理国家，而不是国家统治公民，公民没有爱国的义务；国家政权的建立其基本原则是保护公民的生命权、自由权、财产权、反抗压迫权和选举与被选举权不受任何的非法侵犯，当国家政权无法保证这一基本原则时，公民有权有义务推翻这个政权，建立一个以保障公民生命权、自由权、财产权、反抗压迫权和选举与被选举权为基本原则的政权。",
-        "wuminism": "中华民族联邦共和国国家名称是基于中华各民族悠久历史与璀璨文化的沉淀，全称为：中华民族联邦共和国，简称为：中华联邦，或中国及中华民国；中华民族联邦共和国是致力于推行五民主义———公民治理国家（民治）、实现民主共和（民主）、保障公民权利（民权）、建设民生社会（民生）、复兴民族文化（民族）———的联邦制共和国"
-      }
-      "contracts": {          // 创世智能合约模块
-        "codes": [            // 合约代码列表，格式为 [合约名称, WASM字节码]
-          ["bonus_issue_smart", "0x1234..."],             // 奖励发行智能合约
-          ["citizen_nodes_issue_smart", "0x5678..."],     // 公民轻节点发行智能合约
-          ["stake_issue_smart", "0x9abc..."]              // 质押发行智能合约
-        ]
-        },
-      "balances": {          // 余额模块，定义创世时各账户的初始余额
-        "balances": [        // 格式为 [账户地址, 金额]
-          ["5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY", 144349737800],    // 超级节点交易钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 144349737800],    // 国储会节点交易钱包
-          ["5ContractBonus...", 577398951200],                                   // 奖励发行合约金额
-          ["5ContractCitizen...", 157198163362200],                              // 公民轻节点合约金额
-          ["5ContractStake...", 3680918313900],                                  // 质押发行合约金额
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 109139020000],    // 中枢省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 281570640000],    // 岭南省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 1060128640000],   // 广东省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 501268040000],    // 广西省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 415400860000],    // 福建省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 100812320000],    // 海南省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 468217660000],    // 云南省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 385621480000],    // 贵州省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 664448640000],    // 湖南省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 451886350000],    // 江西省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 645675880000],    // 浙江省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 847480160000],    // 江苏省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 1015274530000],   // 山东省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 349156160000],    // 山西省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 993655190000],    // 河南省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 562820210000],    // 河北省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 545435530000],    // 湖北省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 338241010000],    // 陕西省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 320541590000],    // 重庆省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 803102450000],    // 四川省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 206174650000],    // 甘肃省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 218930950000],    // 北平省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 247208710000],    // 滨海省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 248708950000],    // 松江省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 227803540000],    // 龙江省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 240734530000],    // 吉林省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 425914070000],    // 辽宁省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 72026540000],     // 宁夏省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 50305420000],     // 青海省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 610271710000],    // 安徽省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 235612360000],    // 台湾省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 27638530000],     // 西藏省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 98804420000],     // 新疆省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 45130980000],     // 西康省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 26279990000],     // 阿里省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 78330210000],     // 葱岭省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 56341640000],     // 天山省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 46647270000],     // 河西省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 8934150000],      // 昆仑省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 121107800000],    // 河套省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 154895620000],    // 热河省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 39910800000],     // 兴安省节点质押钱包
-          ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 87384580000],     // 合江省节点质押钱包
-        ]
+      "genesis_philosophy": {           // 创世理念（五民宣言、五民主义）
+        "declaration_of_wumin": "先有人类后有国家，是公民建立国家，国家是公民的国家，是公民治理国家，而不是国家统治公民，公民没有爱国的义务；国家政权的建立其基本原则是保护公民的生命权、自由权、财产权、反抗压迫权和选举与被选举权不受任何的非法侵犯，当国家政权无法保证这一基本原则时，公民有权有义务推翻这个政权，建立一个以保障公民生命权、自由权、财产权、反抗压迫权和选举与被选举权为基本原则的政权。", // 五民宣言
+        "wuminism": "中华民族联邦共和国国家名称是基于中华各民族悠久历史与璀璨文化的沉淀，全称为：中华民族联邦共和国，简称为：中华联邦，或中国及中华民国；中华民族联邦共和国是致力于推行五民主义———公民治理国家（民治）、实现民主共和（民主）、保障公民权利（民权）、建设民生社会（民生）、复兴民族文化（民族）———的联邦制共和国" // 五民主义
       },
-      "customConsensus": {        // 自定义共识模块，定义初始验证者节点（即各省储行权益节点）
-        "validators": [           // 格式为 [公钥]
-          "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY",    // 中枢省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 岭南省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 广东省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 广西省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 福建省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 海南省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 云南省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 贵州省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 湖南省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 江西省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 浙江省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 江苏省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 山东省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 山西省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 河南省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 河北省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 湖北省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 陕西省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 重庆省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 四川省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 甘肃省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 北平省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 滨海省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 松江省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 龙江省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 吉林省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 辽宁省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 宁夏省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 青海省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 安徽省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 台湾省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 西藏省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 新疆省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 西康省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 阿里省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 葱岭省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 天山省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 河西省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 昆仑省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 河套省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 热河省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 兴安省权益节点
-          "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",    // 合江省权益节点
-        ]
+      "balances": {                     // 创世发行和融资发行金额
+        ["5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY", 144349737800],     // 超级节点交易钱包持有
+        ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 144349737800],     // 国储会节点交易钱包持有
       }
-    }
-  }
-  "nodeMapping": {                                // 节点映射表，将PeerID映射到前端可读节点名称
+      "genesis_smart": [                // 奖励发行、质押发行、公民轻节点发行智能合约，不可更改
+        {
+          "name": "bonus_issue_smart",       // 名称：奖励发行智能合约
+          "address": "5ContractBonus...",    // 地址：合约部署后的链上地址（占位符）
+          "balance": 577398951200,           // 金额：5,773,989,512.00 元（单位：分）
+          "code_hash": "0xabc123...abc",     // 编译哈希：合约代码的哈希值（占位符）
+          "data": "0x0100000000...",         // 构造函数初始化参数（占位符）
+          "salt": null,                      // 盐值：用于生成唯一地址，此处无需
+          "deployer": "super_poa_node_1"     // 部署者：超级节点super_poa_node_1
+        },
+        {
+          "name": "stake_issue_smart",       // 名称：质押发行智能合约
+          "address": "5ContractStake...",    // 地址：合约部署后的链上地址（占位符）
+          "balance": 3680918313900,          // 金额：36,809,183,139.00 元（单位：分）
+          "code_hash": "0xabc123...abc",     // 编译哈希：合约代码的哈希值（占位符）
+          "data": "0x0100000000...",         // 构造函数初始化参数（占位符）
+          "salt": null,                      // 盐值：用于生成唯一地址，此处无需
+          "deployer": "super_poa_node_1"     // 部署者：超级节点super_poa_node_1
+        },
+        {
+          "name": "citizen_nodes_issue_smart", // 名称：公民轻节点发行智能合约
+          "address": "5ContractCitizen...",    // 地址：合约部署后的链上地址（占位符）
+          "balance": 157198163362200,          // 金额：1,571,981,633,622.00 元（单位：分）
+          "code_hash": "0xabc123...abc",       // 编译哈希：合约代码的哈希值（占位符）
+          "data": "0x0100000000...",           // 构造函数初始化参数（占位符）
+          "salt": null,                        // 盐值：用于生成唯一地址，此处无需
+          "deployer": "super_poa_node_1"       // 部署者：超级节点super_poa_node_1
+        }
+      ],
+      "logic_smart": {                  // 逻辑功能智能合约，可升级
+        "name": "logical_function_smart",                // 名称：逻辑功能智能合约
+        "address": "5FLogic...",                         // 地址：合约部署后的链上地址（占位符）
+        "upgrade_authority": "super_poa_node_1",         // 权限：只能由super_poa_node_1升级
+        "version": "v0.0.1",                             // 初始版本
+        "code_hash": "0x999abc...",                      // 编译哈希：合约代码的哈希值（占位符）
+        "data": "0x0000000000...",                       // 构造函数初始化参数（占位符）
+        "salt": null,                                    // 盐值：用于生成唯一地址，此处无需
+        "deployer": "super_poa_node_1"                   // 部署者：超级节点super_poa_node_1
+      },
+      "validator_set": [                // 初始省储行权益节点，43个，验证者节点
+        {
+          "node_id": "prb_pos_node_0001",             // 节点名称：中枢省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 109139020000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0002",             // 节点名称：岭南省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 281570640000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0003",             // 节点名称：广东省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 1060128640000,             // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0004",             // 节点名称：广西省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 501268040000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0005",             // 节点名称：福建省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 415400860000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0006",             // 节点名称：海南省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 100812320000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0007",             // 节点名称：云南省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 468217660000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0008",             // 节点名称：贵州省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 385621480000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0009",             // 节点名称：湖南省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 664448640000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0010",             // 节点名称：江西省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 451886350000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0011",             // 节点名称：浙江省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 645675880000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0012",             // 节点名称：江苏省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 847480160000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0013",             // 节点名称：山东省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 1015274530000,             // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0014",             // 节点名称：山西省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 349156160000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0015",             // 节点名称：河南省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 993655190000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0016",             // 节点名称：河北省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 562820210000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0017",             // 节点名称：湖北省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 545435530000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0018",             // 节点名称：陕西省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 338241010000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0019",             // 节点名称：重庆省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 320541590000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0020",             // 节点名称：四川省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 803102450000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0021",             // 节点名称：甘肃省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 206174650000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0022",             // 节点名称：北平省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 218930950000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0023",             // 节点名称：滨海省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 247208710000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0024",             // 节点名称：松江省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 248708950000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0025",             // 节点名称：龙江省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 227803540000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0026",             // 节点名称：吉林省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 240734530000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0027",             // 节点名称：辽宁省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 425914070000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0028",             // 节点名称：宁夏省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 72026540000,               // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0029",             // 节点名称：青海省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 50305420000,               // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0030",             // 节点名称：安徽省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 610271710000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0031",             // 节点名称：台湾省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 235612360000,               // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0032",             // 节点名称：西藏省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 27638530000,               // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0033",             // 节点名称：新疆省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 98804420000,               // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0034",             // 节点名称：西康省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 45130980000,               // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0035",             // 节点名称：阿里省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 26279990000,               // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0036",             // 节点名称：葱岭省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 78330210000,               // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0037",             // 节点名称：天山省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 56341640000,               // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0038",             // 节点名称：河西省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 46647270000,               // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0039",             // 节点名称：昆仑省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 8934150000,                // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0040",             // 节点名称：河套省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 121107800000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0041",             // 节点名称：热河省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 154895620000,              // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0042",             // 节点名称：兴安省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 39910800000,               // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        {
+          "node_id": "prb_pos_node_0043",             // 节点名称：合江省权益节点
+          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
+          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
+          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
+          "stake_balance": 87384580000,               // 质押金额
+          "mutable": false                            // 初始43个省储行权益节点不可增删改
+        },
+        ],
+      },
+  "nodeMapping": {                      // 节点映射表，将PeerID映射到前端可读节点名称
     "12D3KooWABC...": "super_node_1",             // 超级节点
     "12D3KooWXYZ...": "nrc_poa_node_1",           // 国储会权威节点
     "12D3KooWNode001...": "prc_poa_node_0001",    // 中枢省权威节点
@@ -212,7 +494,7 @@
     "12D3KooWNode041...": "prc_poa_node_0041",    // 热河省权威节点
     "12D3KooWNode042...": "prc_poa_node_0042",    // 兴安省权威节点
     "12D3KooWNode043...": "prc_poa_node_0043",    // 合江省权威节点
-    "12D3KooWNode044...": "prb_pos_node_0001",    // 中枢省权益节点
+    "12D3KooWNode044...": "prb_pos_node_0001",    // 中枢省权益节点  以下为省储行权益节点
     "12D3KooWNode045...": "prb_pos_node_0002",    // 岭南省权益节点
     "12D3KooWNode046...": "prb_pos_node_0003",    // 广东省权益节点
     "12D3KooWNode047...": "prb_pos_node_0004",    // 广西省权益节点
@@ -256,4 +538,5 @@
     "12D3KooWNode085...": "prb_pos_node_0042",    // 兴安省权益节点
     "12D3KooWNode086...": "prb_pos_node_0043"     // 合江省权益节点
   },
+},
 }

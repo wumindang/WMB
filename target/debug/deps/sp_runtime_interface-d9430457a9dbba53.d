@@ -1,9 +1,0 @@
-/Users/wumindang/Documents/WMB/target/debug/deps/libsp_runtime_interface-d9430457a9dbba53.rmeta: /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/lib.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/host.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/impls.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/pass_by.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/util.rs
-
-/Users/wumindang/Documents/WMB/target/debug/deps/sp_runtime_interface-d9430457a9dbba53.d: /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/lib.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/host.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/impls.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/pass_by.rs /Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/util.rs
-
-/Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/lib.rs:
-/Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/host.rs:
-/Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/impls.rs:
-/Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/pass_by.rs:
-/Users/wumindang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sp-runtime-interface-29.0.1/src/util.rs:
