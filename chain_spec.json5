@@ -2,51 +2,51 @@
   "name": "wuminbi_blockchain",         // 区块链名称，显示“五民币区块链”
   "id": "880711",                       // 区块链唯一标识符
   "protocolId": "wmb_0.0.0.1",          // 网络协议标识符，"wmb"是五民币区块链的简称，"数字"是版本号
-  "bootNodes": [                        // 引导节点列表，帮助新节点加入网络，IP地址+PeerID地址
-    "/ip4/192.168.1.1/tcp/30333/p2p/12D3KooWABC...",      // 国储会权威节点
-    "/ip4/192.168.1.2/tcp/30333/p2p/12D3KooWNode001...",  // 中枢省权威节点
-    "/ip4/192.168.1.3/tcp/30333/p2p/12D3KooWNode002...",  // 岭南省权威节点
-    "/ip4/192.168.1.4/tcp/30333/p2p/12D3KooWNode003...",  // 广东省权威节点
-    "/ip4/192.168.1.5/tcp/30333/p2p/12D3KooWNode004...",  // 广西省权威节点
-    "/ip4/192.168.1.6/tcp/30333/p2p/12D3KooWNode005...",  // 福建省权威节点
-    "/ip4/192.168.1.7/tcp/30333/p2p/12D3KooWNode006...",  // 海南省权威节点
-    "/ip4/192.168.1.8/tcp/30333/p2p/12D3KooWNode007...",  // 云南省权威节点
-    "/ip4/192.168.1.9/tcp/30333/p2p/12D3KooWNode008...",  // 贵州省权威节点
-    "/ip4/192.168.1.10/tcp/30333/p2p/12D3KooWNode009...", // 湖南省权威节点
-    "/ip4/192.168.1.11/tcp/30333/p2p/12D3KooWNode010...", // 江西省权威节点
-    "/ip4/192.168.1.12/tcp/30333/p2p/12D3KooWNode011...", // 浙江省权威节点
-    "/ip4/192.168.1.13/tcp/30333/p2p/12D3KooWNode012...", // 江苏省权威节点
-    "/ip4/192.168.1.14/tcp/30333/p2p/12D3KooWNode013...", // 山东省权威节点
-    "/ip4/192.168.1.15/tcp/30333/p2p/12D3KooWNode014...", // 山西省权威节点
-    "/ip4/192.168.1.16/tcp/30333/p2p/12D3KooWNode015...", // 河南省权威节点
-    "/ip4/192.168.1.17/tcp/30333/p2p/12D3KooWNode016...", // 河北省权威节点
-    "/ip4/192.168.1.18/tcp/30333/p2p/12D3KooWNode017...", // 湖北省权威节点
-    "/ip4/192.168.1.19/tcp/30333/p2p/12D3KooWNode018...", // 陕西省权威节点
-    "/ip4/192.168.1.20/tcp/30333/p2p/12D3KooWNode019...", // 重庆省权威节点
-    "/ip4/192.168.1.21/tcp/30333/p2p/12D3KooWNode020...", // 四川省权威节点
-    "/ip4/192.168.1.22/tcp/30333/p2p/12D3KooWNode021...", // 甘肃省权威节点
-    "/ip4/192.168.1.23/tcp/30333/p2p/12D3KooWNode022...", // 北平省权威节点
-    "/ip4/192.168.1.24/tcp/30333/p2p/12D3KooWNode023...", // 滨海省权威节点
-    "/ip4/192.168.1.25/tcp/30333/p2p/12D3KooWNode024...", // 松江省权威节点
-    "/ip4/192.168.1.26/tcp/30333/p2p/12D3KooWNode025...", // 龙江省权威节点
-    "/ip4/192.168.1.27/tcp/30333/p2p/12D3KooWNode026...", // 吉林省权威节点
-    "/ip4/192.168.1.28/tcp/30333/p2p/12D3KooWNode027...", // 辽宁省权威节点
-    "/ip4/192.168.1.29/tcp/30333/p2p/12D3KooWNode028...", // 宁夏省权威节点
-    "/ip4/192.168.1.30/tcp/30333/p2p/12D3KooWNode029...", // 青海省权威节点
-    "/ip4/192.168.1.31/tcp/30333/p2p/12D3KooWNode030...", // 安徽省权威节点
-    "/ip4/192.168.1.32/tcp/30333/p2p/12D3KooWNode031...", // 台湾省权威节点
-    "/ip4/192.168.1.33/tcp/30333/p2p/12D3KooWNode032...", // 西藏省权威节点
-    "/ip4/192.168.1.34/tcp/30333/p2p/12D3KooWNode033...", // 新疆省权威节点
-    "/ip4/192.168.1.35/tcp/30333/p2p/12D3KooWNode034...", // 西康省权威节点
-    "/ip4/192.168.1.36/tcp/30333/p2p/12D3KooWNode035...", // 阿里省权威节点
-    "/ip4/192.168.1.37/tcp/30333/p2p/12D3KooWNode036...", // 葱岭省权威节点
-    "/ip4/192.168.1.38/tcp/30333/p2p/12D3KooWNode037...", // 天山省权威节点
-    "/ip4/192.168.1.39/tcp/30333/p2p/12D3KooWNode038...", // 河西省权威节点
-    "/ip4/192.168.1.40/tcp/30333/p2p/12D3KooWNode039...", // 昆仑省权威节点
-    "/ip4/192.168.1.41/tcp/30333/p2p/12D3KooWNode040...", // 河套省权威节点
-    "/ip4/192.168.1.42/tcp/30333/p2p/12D3KooWNode041...", // 热河省权威节点
-    "/ip4/192.168.1.43/tcp/30333/p2p/12D3KooWNode042...", // 兴安省权威节点
-    "/ip4/192.168.1.44/tcp/30333/p2p/12D3KooWNode043..."  // 合江省权威节点
+  "bootNodes": [                        // 引导节点列表，帮助新节点加入网络，域名地址+PeerID地址
+    "/dns4/gch.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // 国储会权威节点
+    "/dns4/zss.wuminbi.com/tcp/30333/p2p/12D3KooWNode001...", // 中枢省权威节点
+    "/dns4/lns.wuminbi.com/tcp/30333/p2p/12D3KooWNode002...", // 岭南省权威节点
+    "/dns4/gds.wuminbi.com/tcp/30333/p2p/12D3KooWNode003...", // 广东省权威节点
+    "/dns4/gxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode004...", // 广西省权威节点
+    "/dns4/fjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode005...", // 福建省权威节点
+    "/dns4/hns.wuminbi.com/tcp/30333/p2p/12D3KooWNode006...", // 海南省权威节点
+    "/dns4/yns.wuminbi.com/tcp/30333/p2p/12D3KooWNode007...", // 云南省权威节点
+    "/dns4/gzs.wuminbi.com/tcp/30333/p2p/12D3KooWNode008...", // 贵州省权威节点
+    "/dns4/hn1.wuminbi.com/tcp/30333/p2p/12D3KooWNode009...", // 湖南省权威节点
+    "/dns4/jxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode010...", // 江西省权威节点
+    "/dns4/zjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode011...", // 浙江省权威节点
+    "/dns4/jss.wuminbi.com/tcp/30333/p2p/12D3KooWNode012...", // 江苏省权威节点
+    "/dns4/sds.wuminbi.com/tcp/30333/p2p/12D3KooWNode013...", // 山东省权威节点
+    "/dns4/sxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode014...", // 山西省权威节点
+    "/dns4/hn2.wuminbi.com/tcp/30333/p2p/12D3KooWNode015...", // 河南省权威节点
+    "/dns4/hbs.wuminbi.com/tcp/30333/p2p/12D3KooWNode016...", // 河北省权威节点
+    "/dns4/hb1.wuminbi.com/tcp/30333/p2p/12D3KooWNode017...", // 湖北省权威节点
+    "/dns4/sx1.wuminbi.com/tcp/30333/p2p/12D3KooWNode018...", // 陕西省权威节点
+    "/dns4/cqs.wuminbi.com/tcp/30333/p2p/12D3KooWNode019...", // 重庆省权威节点
+    "/dns4/scs.wuminbi.com/tcp/30333/p2p/12D3KooWNode020...", // 四川省权威节点
+    "/dns4/gss.wuminbi.com/tcp/30333/p2p/12D3KooWNode021...", // 甘肃省权威节点
+    "/dns4/bps.wuminbi.com/tcp/30333/p2p/12D3KooWNode022...", // 北平省权威节点
+    "/dns4/bhs.wuminbi.com/tcp/30333/p2p/12D3KooWNode023...", // 滨海省权威节点
+    "/dns4/sjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode024...", // 松江省权威节点
+    "/dns4/ljs.wuminbi.com/tcp/30333/p2p/12D3KooWNode025...", // 龙江省权威节点
+    "/dns4/jls.wuminbi.com/tcp/30333/p2p/12D3KooWNode026...", // 吉林省权威节点
+    "/dns4/ln1.wuminbi.com/tcp/30333/p2p/12D3KooWNode027...", // 辽宁省权威节点
+    "/dns4/nxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode028...", // 宁夏省权威节点
+    "/dns4/qhs.wuminbi.com/tcp/30333/p2p/12D3KooWNode029...", // 青海省权威节点
+    "/dns4/ahs.wuminbi.com/tcp/30333/p2p/12D3KooWNode030...", // 安徽省权威节点
+    "/dns4/tws.wuminbi.com/tcp/30333/p2p/12D3KooWNode031...", // 台湾省权威节点
+    "/dns4/xzs.wuminbi.com/tcp/30333/p2p/12D3KooWNode032...", // 西藏省权威节点
+    "/dns4/xjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode033...", // 新疆省权威节点
+    "/dns4/xks.wuminbi.com/tcp/30333/p2p/12D3KooWNode034...", // 西康省权威节点
+    "/dns4/als.wuminbi.com/tcp/30333/p2p/12D3KooWNode035...", // 阿里省权威节点
+    "/dns4/cls.wuminbi.com/tcp/30333/p2p/12D3KooWNode036...", // 葱岭省权威节点
+    "/dns4/tss.wuminbi.com/tcp/30333/p2p/12D3KooWNode037...", // 天山省权威节点
+    "/dns4/hxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode038...", // 河西省权威节点
+    "/dns4/kls.wuminbi.com/tcp/30333/p2p/12D3KooWNode039...", // 昆仑省权威节点
+    "/dns4/hts.wuminbi.com/tcp/30333/p2p/12D3KooWNode040...", // 河套省权威节点
+    "/dns4/rhs.wuminbi.com/tcp/30333/p2p/12D3KooWNode041...", // 热河省权威节点
+    "/dns4/xas.wuminbi.com/tcp/30333/p2p/12D3KooWNode042...", // 兴安省权威节点
+    "/dns4/hjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode043..."  // 合江省权威节点
   ],
   "telemetryEndpoints": null,           // 遥测服务端点，用于监控节点状态，当前未启用（null表示不使用）
   "genesis": {                          // 创世状态，定义区块链启动时的初始配置
@@ -70,7 +70,7 @@
           "code_hash": "0xabc123...abc",     // 编译哈希：合约代码的哈希值（占位符）
           "data": "0x0100000000...",         // 构造函数初始化参数（占位符）
           "salt": null,                      // 盐值：用于生成唯一地址，此处无需
-          "deployer": "super_poa_node_1"     // 部署者：超级节点super_poa_node_1
+          "deployer": "super_node_1"         // 部署者：超级节点super_node_1
         },
         {
           "name": "stake_issue_smart",       // 名称：质押发行智能合约
@@ -79,7 +79,7 @@
           "code_hash": "0xabc123...abc",     // 编译哈希：合约代码的哈希值（占位符）
           "data": "0x0100000000...",         // 构造函数初始化参数（占位符）
           "salt": null,                      // 盐值：用于生成唯一地址，此处无需
-          "deployer": "super_poa_node_1"     // 部署者：超级节点super_poa_node_1
+          "deployer": "super_node_1"         // 部署者：超级节点super_node_1
         },
         {
           "name": "citizen_nodes_issue_smart", // 名称：公民轻节点发行智能合约
@@ -88,7 +88,7 @@
           "code_hash": "0xabc123...abc",       // 编译哈希：合约代码的哈希值（占位符）
           "data": "0x0100000000...",           // 构造函数初始化参数（占位符）
           "salt": null,                        // 盐值：用于生成唯一地址，此处无需
-          "deployer": "super_poa_node_1"       // 部署者：超级节点super_poa_node_1
+          "deployer": "super_node_1"           // 部署者：超级节点super_node_1
         }
       ],
       "logic_smart": {                  // 逻辑功能智能合约，可升级
@@ -99,7 +99,7 @@
         "code_hash": "0x999abc...",                      // 编译哈希：合约代码的哈希值（占位符）
         "data": "0x0000000000...",                       // 构造函数初始化参数（占位符）
         "salt": null,                                    // 盐值：用于生成唯一地址，此处无需
-        "deployer": "super_poa_node_1"                   // 部署者：超级节点super_poa_node_1
+        "deployer": "super_node_1"                       // 部署者：超级节点super_node_1
       },
       "validator_set": [                // 初始省储行权益节点，43个，验证者节点
         {
