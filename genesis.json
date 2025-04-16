@@ -4,14 +4,12 @@
 
   "alloc": {
     "节点ID":            { "issue_name": "发行名称",  "issue_size":    "发行量",      "trade_wallet_address": "交易钱包地址"},
-    "super_node_1":     { "issue_name": "创世发行",  "issue_size": "144349737800",  "trade_wallet_address": "0x001100" }, 
-    "nrc_poa_node_1":   { "issue_name": "融资发行",  "issue_size": "144349737800",  "trade_wallet_address": "0x001101" },
+    "nrc_poa_node":     { "issue_name": "创世发行",  "issue_size": "144349737800",  "trade_wallet_address": "0x001101" },
 
     "智能合约":                   {"smart_name":   "智能合约名称",        "issue_size":   "发行量",           "smart_address": "智能合约地址"},
-    "bonus_issue_smart":         {"smart_name": "奖励发行智能合约",      "issue_size": "577398951200",      "smart_address": "super_poa_node_1_112233" }, 
-    "citizen_nodes_issue_smart": {"smart_name": "公民轻节点发行智能合约",  "issue_size": "157198163362200",  "smart_address": "super_poa_node_1_223344" }, 
-    "stake_issue_smart":         {"smart_name": "质押发行智能合约",       "issue_size": "3680918313900",    "smart_address": "super_poa_node_1_334455" }, 
-    "logic_smart":               {"smart_name": "逻辑智能合约",          "issue_size": "0",                 "smart_address": "super_poa_node_1_445566" }, 
+    "stake_issue_smart":         {"smart_name": "质押发行智能合约",       "issue_size": "3680918313900",    "smart_address": "nrc_poa_node_334455" }, 
+    "citizen_nodes_issue_smart": {"smart_name": "公民轻节点发行智能合约",  "issue_size": "157198163362200",  "smart_address": "nrc_poa_node_223344" }, 
+    "logic_smart":               {"smart_name": "逻辑智能合约",          "issue_size": "0",                 "smart_address": "nrc_poa_node_445566" }, 
 
     "省储行验证者节点ID":       { "province_name": "省名称", "issue_size": "发行量",        "trade_wallet_address": "交易钱包地址","stake_wallet_address": "质押钱包地址"},
     "prb_pos_node_zss_0001": { "province_name": "中枢省", "issue_size": "109139020000", "trade_wallet_address": "0x001122", "stake_wallet_address": "0x001100" },
