@@ -1,5 +1,5 @@
 {
-  "name": "wuminbi_blockchain",         // 区块链名称，显示“五民币区块链”
+  "name": "wuminbi",                    // 区块链名称，显示“五民币区块链”
   "id": "880711",                       // 区块链唯一标识符
   "protocolId": "wmb_0.0.0.1",          // 网络协议标识符，"wmb"是五民币区块链的简称，"数字"是版本号
   "bootNodes": [                        // 引导节点列表，帮助新节点加入网络，域名地址+PeerID地址
@@ -58,46 +58,9 @@
         "declaration_of_wumin": "先有人类后有国家，是公民建立国家，国家是公民的国家，是公民治理国家，而不是国家统治公民，公民没有爱国的义务；国家政权的建立其基本原则是保护公民的生命权、自由权、财产权、反抗压迫权和选举与被选举权不受任何的非法侵犯，当国家政权无法保证这一基本原则时，公民有权有义务推翻这个政权，建立一个以保障公民生命权、自由权、财产权、反抗压迫权和选举与被选举权为基本原则的政权。", // 五民宣言
         "wuminism": "中华民族联邦共和国国家名称是基于中华各民族悠久历史与璀璨文化的沉淀，全称为：中华民族联邦共和国，简称为：中华联邦，或中国及中华民国；中华民族联邦共和国是致力于推行五民主义———公民治理国家（民治）、实现民主共和（民主）、保障公民权利（民权）、建设民生社会（民生）、复兴民族文化（民族）———的联邦制共和国" // 五民主义
       },
-      "balances": {                     // 创世发行金额及分配列表
-        ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 144349737800],     // 国储会权威节点交易钱包
-        ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 0],     // 创始团队成员A
-        ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 0],     // 创始团队成员B
-        ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 0],     // 创始团队成员C
-        ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 0],     // 创始团队成员D
-        ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 0],     // 创始团队成员E
-        ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 0],     // 创始团队成员F
-        ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 0],     // 创始团队成员G
+      "balances": {                     // 国储会权威节点交易钱包地址
+        ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 161023431413900],     // 包含创世发行+省储行质押发行+公民轻节点发行的五民币
       }
-      "genesis_smart": [                // 质押发行、公民轻节点发行智能合约，不可更改
-        {
-          "name": "stake_issue_smart",       // 名称：质押发行智能合约
-          "address": "5ContractStake...",    // 地址：合约部署后的链上地址（占位符）
-          "balance": 3680918313900,          // 金额：36,809,183,139.00 元（单位：分）
-          "code_hash": "0xabc123...abc",     // 编译哈希：合约代码的哈希值（占位符）
-          "data": "0x0100000000...",         // 构造函数初始化参数（占位符）
-          "salt": null,                      // 盐值：用于生成唯一地址，此处无需
-          "deployer": "nrc_poa_node"         // 部署者：国储会权威节点
-        },
-        {
-          "name": "citizen_nodes_issue_smart", // 名称：公民轻节点发行智能合约
-          "address": "5ContractCitizen...",    // 地址：合约部署后的链上地址（占位符）
-          "balance": 157198163362200,          // 金额：1,571,981,633,622.00 元（单位：分）
-          "code_hash": "0xabc123...abc",       // 编译哈希：合约代码的哈希值（占位符）
-          "data": "0x0100000000...",           // 构造函数初始化参数（占位符）
-          "salt": null,                        // 盐值：用于生成唯一地址，此处无需
-          "deployer": "nrc_poa_node"           // 部署者：国储会权威节点
-        }
-      ],
-      "logic_smart": {                  // 逻辑功能智能合约，可升级
-        "name": "logical_function_smart",                // 名称：逻辑功能智能合约
-        "address": "5FLogic...",                         // 地址：合约部署后的链上地址（占位符）
-        "upgrade_authority": "nrc_poa_node",             // 权限：只能由nrc_poa_node升级
-        "version": "v0.0.1",                             // 初始版本
-        "code_hash": "0x999abc...",                      // 编译哈希：合约代码的哈希值（占位符）
-        "data": "0x0000000000...",                       // 构造函数初始化参数（占位符）
-        "salt": null,                                    // 盐值：用于生成唯一地址，此处无需
-        "deployer": "nrc_poa_node"                       // 部署者：国储会权威节点
-      },
       "validator_set": [                // 初始省储行权益节点，43个，验证者节点
         {
           "node_id": "prb_pos_node_0001",             // 节点名称：中枢省权益节点
@@ -445,7 +408,7 @@
         },
         ],
       },
-  "nodeMapping": {                      // 节点映射表，将PeerID映射到前端可读节点名称
+  "nodeMapping": {                      // 权威节点和权益节点映射表，将PeerID映射到前端可读节点名称
     "12D3KooWNode000...": "nrc_poa_node",         // 国储会权威节点
     "12D3KooWNode001...": "prc_poa_node_0001",    // 中枢省权威节点
     "12D3KooWNode002...": "prc_poa_node_0002",    // 岭南省权威节点
