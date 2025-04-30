@@ -3,50 +3,50 @@
   "id": "880711",                       // 区块链唯一标识符
   "protocolId": "wmb_0.0.0.1",          // 网络协议标识符，"wmb"是五民币区块链的简称，"数字"是版本号
   "bootNodes": [                        // 引导节点列表，帮助新节点加入网络，域名地址+PeerID地址
-    "/dns4/gch.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // 国储会权威节点
-    "/dns4/zss.wuminbi.com/tcp/30333/p2p/12D3KooWNode001...", // 中枢省权威节点
-    "/dns4/lns.wuminbi.com/tcp/30333/p2p/12D3KooWNode002...", // 岭南省权威节点
-    "/dns4/gds.wuminbi.com/tcp/30333/p2p/12D3KooWNode003...", // 广东省权威节点
-    "/dns4/gxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode004...", // 广西省权威节点
-    "/dns4/fjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode005...", // 福建省权威节点
-    "/dns4/hns.wuminbi.com/tcp/30333/p2p/12D3KooWNode006...", // 海南省权威节点
-    "/dns4/yns.wuminbi.com/tcp/30333/p2p/12D3KooWNode007...", // 云南省权威节点
-    "/dns4/gzs.wuminbi.com/tcp/30333/p2p/12D3KooWNode008...", // 贵州省权威节点
-    "/dns4/hn1.wuminbi.com/tcp/30333/p2p/12D3KooWNode009...", // 湖南省权威节点
-    "/dns4/jxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode010...", // 江西省权威节点
-    "/dns4/zjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode011...", // 浙江省权威节点
-    "/dns4/jss.wuminbi.com/tcp/30333/p2p/12D3KooWNode012...", // 江苏省权威节点
-    "/dns4/sds.wuminbi.com/tcp/30333/p2p/12D3KooWNode013...", // 山东省权威节点
-    "/dns4/sxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode014...", // 山西省权威节点
-    "/dns4/hn2.wuminbi.com/tcp/30333/p2p/12D3KooWNode015...", // 河南省权威节点
-    "/dns4/hbs.wuminbi.com/tcp/30333/p2p/12D3KooWNode016...", // 河北省权威节点
-    "/dns4/hb1.wuminbi.com/tcp/30333/p2p/12D3KooWNode017...", // 湖北省权威节点
-    "/dns4/sx1.wuminbi.com/tcp/30333/p2p/12D3KooWNode018...", // 陕西省权威节点
-    "/dns4/cqs.wuminbi.com/tcp/30333/p2p/12D3KooWNode019...", // 重庆省权威节点
-    "/dns4/scs.wuminbi.com/tcp/30333/p2p/12D3KooWNode020...", // 四川省权威节点
-    "/dns4/gss.wuminbi.com/tcp/30333/p2p/12D3KooWNode021...", // 甘肃省权威节点
-    "/dns4/bps.wuminbi.com/tcp/30333/p2p/12D3KooWNode022...", // 北平省权威节点
-    "/dns4/bhs.wuminbi.com/tcp/30333/p2p/12D3KooWNode023...", // 滨海省权威节点
-    "/dns4/sjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode024...", // 松江省权威节点
-    "/dns4/ljs.wuminbi.com/tcp/30333/p2p/12D3KooWNode025...", // 龙江省权威节点
-    "/dns4/jls.wuminbi.com/tcp/30333/p2p/12D3KooWNode026...", // 吉林省权威节点
-    "/dns4/ln1.wuminbi.com/tcp/30333/p2p/12D3KooWNode027...", // 辽宁省权威节点
-    "/dns4/nxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode028...", // 宁夏省权威节点
-    "/dns4/qhs.wuminbi.com/tcp/30333/p2p/12D3KooWNode029...", // 青海省权威节点
-    "/dns4/ahs.wuminbi.com/tcp/30333/p2p/12D3KooWNode030...", // 安徽省权威节点
-    "/dns4/tws.wuminbi.com/tcp/30333/p2p/12D3KooWNode031...", // 台湾省权威节点
-    "/dns4/xzs.wuminbi.com/tcp/30333/p2p/12D3KooWNode032...", // 西藏省权威节点
-    "/dns4/xjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode033...", // 新疆省权威节点
-    "/dns4/xks.wuminbi.com/tcp/30333/p2p/12D3KooWNode034...", // 西康省权威节点
-    "/dns4/als.wuminbi.com/tcp/30333/p2p/12D3KooWNode035...", // 阿里省权威节点
-    "/dns4/cls.wuminbi.com/tcp/30333/p2p/12D3KooWNode036...", // 葱岭省权威节点
-    "/dns4/tss.wuminbi.com/tcp/30333/p2p/12D3KooWNode037...", // 天山省权威节点
-    "/dns4/hxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode038...", // 河西省权威节点
-    "/dns4/kls.wuminbi.com/tcp/30333/p2p/12D3KooWNode039...", // 昆仑省权威节点
-    "/dns4/hts.wuminbi.com/tcp/30333/p2p/12D3KooWNode040...", // 河套省权威节点
-    "/dns4/rhs.wuminbi.com/tcp/30333/p2p/12D3KooWNode041...", // 热河省权威节点
-    "/dns4/xas.wuminbi.com/tcp/30333/p2p/12D3KooWNode042...", // 兴安省权威节点
-    "/dns4/hjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode043..."  // 合江省权威节点
+    "/dns4/nrcgch.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // 国储会权威节点
+    "/dns4/prczss.wuminbi.com/tcp/30333/p2p/12D3KooWNode001...", // 中枢省权威节点
+    "/dns4/prclns.wuminbi.com/tcp/30333/p2p/12D3KooWNode002...", // 岭南省权威节点
+    "/dns4/prcgds.wuminbi.com/tcp/30333/p2p/12D3KooWNode003...", // 广东省权威节点
+    "/dns4/prcgxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode004...", // 广西省权威节点
+    "/dns4/prcfjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode005...", // 福建省权威节点
+    "/dns4/prchns.wuminbi.com/tcp/30333/p2p/12D3KooWNode006...", // 海南省权威节点
+    "/dns4/prcyns.wuminbi.com/tcp/30333/p2p/12D3KooWNode007...", // 云南省权威节点
+    "/dns4/prcgzs.wuminbi.com/tcp/30333/p2p/12D3KooWNode008...", // 贵州省权威节点
+    "/dns4/prchn1.wuminbi.com/tcp/30333/p2p/12D3KooWNode009...", // 湖南省权威节点
+    "/dns4/prcjxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode010...", // 江西省权威节点
+    "/dns4/prczjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode011...", // 浙江省权威节点
+    "/dns4/prcjss.wuminbi.com/tcp/30333/p2p/12D3KooWNode012...", // 江苏省权威节点
+    "/dns4/prcsds.wuminbi.com/tcp/30333/p2p/12D3KooWNode013...", // 山东省权威节点
+    "/dns4/prcsxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode014...", // 山西省权威节点
+    "/dns4/prchn2.wuminbi.com/tcp/30333/p2p/12D3KooWNode015...", // 河南省权威节点
+    "/dns4/prchbs.wuminbi.com/tcp/30333/p2p/12D3KooWNode016...", // 河北省权威节点
+    "/dns4/prchb1.wuminbi.com/tcp/30333/p2p/12D3KooWNode017...", // 湖北省权威节点
+    "/dns4/prcsx1.wuminbi.com/tcp/30333/p2p/12D3KooWNode018...", // 陕西省权威节点
+    "/dns4/prccqs.wuminbi.com/tcp/30333/p2p/12D3KooWNode019...", // 重庆省权威节点
+    "/dns4/prcscs.wuminbi.com/tcp/30333/p2p/12D3KooWNode020...", // 四川省权威节点
+    "/dns4/prcgss.wuminbi.com/tcp/30333/p2p/12D3KooWNode021...", // 甘肃省权威节点
+    "/dns4/prcbps.wuminbi.com/tcp/30333/p2p/12D3KooWNode022...", // 北平省权威节点
+    "/dns4/prcbhs.wuminbi.com/tcp/30333/p2p/12D3KooWNode023...", // 滨海省权威节点
+    "/dns4/prcsjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode024...", // 松江省权威节点
+    "/dns4/prcljs.wuminbi.com/tcp/30333/p2p/12D3KooWNode025...", // 龙江省权威节点
+    "/dns4/prcjls.wuminbi.com/tcp/30333/p2p/12D3KooWNode026...", // 吉林省权威节点
+    "/dns4/prcln1.wuminbi.com/tcp/30333/p2p/12D3KooWNode027...", // 辽宁省权威节点
+    "/dns4/prcnxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode028...", // 宁夏省权威节点
+    "/dns4/prcqhs.wuminbi.com/tcp/30333/p2p/12D3KooWNode029...", // 青海省权威节点
+    "/dns4/prcahs.wuminbi.com/tcp/30333/p2p/12D3KooWNode030...", // 安徽省权威节点
+    "/dns4/prctws.wuminbi.com/tcp/30333/p2p/12D3KooWNode031...", // 台湾省权威节点
+    "/dns4/prcxzs.wuminbi.com/tcp/30333/p2p/12D3KooWNode032...", // 西藏省权威节点
+    "/dns4/prcxjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode033...", // 新疆省权威节点
+    "/dns4/prcxks.wuminbi.com/tcp/30333/p2p/12D3KooWNode034...", // 西康省权威节点
+    "/dns4/prcals.wuminbi.com/tcp/30333/p2p/12D3KooWNode035...", // 阿里省权威节点
+    "/dns4/prccls.wuminbi.com/tcp/30333/p2p/12D3KooWNode036...", // 葱岭省权威节点
+    "/dns4/prctss.wuminbi.com/tcp/30333/p2p/12D3KooWNode037...", // 天山省权威节点
+    "/dns4/prchxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode038...", // 河西省权威节点
+    "/dns4/prckls.wuminbi.com/tcp/30333/p2p/12D3KooWNode039...", // 昆仑省权威节点
+    "/dns4/prchts.wuminbi.com/tcp/30333/p2p/12D3KooWNode040...", // 河套省权威节点
+    "/dns4/prcrhs.wuminbi.com/tcp/30333/p2p/12D3KooWNode041...", // 热河省权威节点
+    "/dns4/prcxas.wuminbi.com/tcp/30333/p2p/12D3KooWNode042...", // 兴安省权威节点
+    "/dns4/prchjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode043..."  // 合江省权威节点
   ],
   "telemetryEndpoints": null,           // 遥测服务端点，用于监控节点状态，当前未启用（null表示不使用）
   "genesis": {                          // 创世状态，定义区块链启动时的初始配置
@@ -59,352 +59,395 @@
         "wuminism": "中华民族联邦共和国国家名称是基于中华各民族悠久历史与璀璨文化的沉淀，全称为：中华民族联邦共和国，简称为：中华联邦，或中国及中华民国；中华民族联邦共和国是致力于推行五民主义———公民治理国家（民治）、实现民主共和（民主）、保障公民权利（民权）、建设民生社会（民生）、复兴民族文化（民族）———的联邦制共和国" // 五民主义
       },
       "balances": {                     // 国储会权威节点交易钱包地址
-        ["5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 161023431413900],     // 包含创世发行+省储行质押发行+公民轻节点发行的五民币
+        ["wmb5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty", 161023431413900],     // 包含创世发行+省储行质押发行+公民轻节点发行的五民币
       }
       "validator_set": [                // 初始省储行权益节点，43个，验证者节点
         {
-          "node_id": "prb_pos_node_0001",             // 节点名称：中枢省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 109139020000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0001",                              // 节点名称：中枢省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmb5GrwvaEF5...",                    // 交易钱包地址（占位符）
+          "stake_address": "wmb5DStakeAddress2...",                    // 质押钱包地址（占位符）
+          "stake_balance": 109139020000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbzss.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0002",             // 节点名称：岭南省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 281570640000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0002",                              // 节点名称：岭南省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmb5GrwvaEF5...",                    // 交易钱包地址（占位符）
+          "stake_address": "wmb5DStakeAddress2...",                    // 质押钱包地址（占位符）
+          "stake_balance": 281570640000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prblns.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0003",             // 节点名称：广东省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 1060128640000,             // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0003",                              // 节点名称：广东省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmb5GrwvaEF5...",                    // 交易钱包地址（占位符）
+          "stake_address": "wmb5DStakeAddress2...",                    // 质押钱包地址（占位符）
+          "stake_balance": 1060128640000,                              // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbgds.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0004",             // 节点名称：广西省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 501268040000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0004",                              // 节点名称：广西省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmb5DStakeAddress2...",                    // 质押钱包地址（占位符）
+          "stake_balance": 501268040000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbgxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0005",             // 节点名称：福建省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 415400860000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0005",                              // 节点名称：福建省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 415400860000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbfjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0006",             // 节点名称：海南省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 100812320000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0006",                              // 节点名称：海南省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 100812320000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbhns.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0007",             // 节点名称：云南省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 468217660000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0007",                              // 节点名称：云南省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 468217660000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbyns.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0008",             // 节点名称：贵州省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 385621480000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0008",                              // 节点名称：贵州省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 385621480000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbgzs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0009",             // 节点名称：湖南省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 664448640000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0009",                              // 节点名称：湖南省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 664448640000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbhn1.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0010",             // 节点名称：江西省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 451886350000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0010",                              // 节点名称：江西省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 451886350000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbjxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0011",             // 节点名称：浙江省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 645675880000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0011",                              // 节点名称：浙江省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 645675880000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbzjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0012",             // 节点名称：江苏省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 847480160000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0012",                              // 节点名称：江苏省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 847480160000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbjss.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0013",             // 节点名称：山东省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 1015274530000,             // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0013",                              // 节点名称：山东省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 1015274530000,                              // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbsds.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0014",             // 节点名称：山西省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 349156160000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0014",                              // 节点名称：山西省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 349156160000,                              // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbsxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0015",             // 节点名称：河南省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 993655190000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0015",                              // 节点名称：河南省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 993655190000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbhn2.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0016",             // 节点名称：河北省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 562820210000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0016",                              // 节点名称：河北省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 562820210000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbhbs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0017",             // 节点名称：湖北省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 545435530000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0017",                              // 节点名称：湖北省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 545435530000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbhb1.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0018",             // 节点名称：陕西省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 338241010000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0018",                              // 节点名称：陕西省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 338241010000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbsx1.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0019",             // 节点名称：重庆省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 320541590000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0019",                              // 节点名称：重庆省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 320541590000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbcqs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0020",             // 节点名称：四川省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 803102450000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0020",                              // 节点名称：四川省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 803102450000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbscs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0021",             // 节点名称：甘肃省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 206174650000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0021",                              // 节点名称：甘肃省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 206174650000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbgss.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0022",             // 节点名称：北平省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 218930950000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0022",                              // 节点名称：北平省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 218930950000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbbps.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0023",             // 节点名称：滨海省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 247208710000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0023",                              // 节点名称：滨海省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 247208710000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbbhs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0024",             // 节点名称：松江省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 248708950000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0024",                              // 节点名称：松江省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 248708950000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbsjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0025",             // 节点名称：龙江省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 227803540000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0025",                              // 节点名称：龙江省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 227803540000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbljs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0026",             // 节点名称：吉林省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 240734530000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0026",                              // 节点名称：吉林省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 240734530000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbjls.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0027",             // 节点名称：辽宁省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 425914070000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0027",                              // 节点名称：辽宁省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 425914070000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbln1.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0028",             // 节点名称：宁夏省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 72026540000,               // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0028",                              // 节点名称：宁夏省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 72026540000,                                // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbnxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0029",             // 节点名称：青海省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 50305420000,               // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0029",                              // 节点名称：青海省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 50305420000,                                // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbqhs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0030",             // 节点名称：安徽省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 610271710000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0030",                              // 节点名称：安徽省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 610271710000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbahs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0031",             // 节点名称：台湾省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 235612360000,               // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0031",                              // 节点名称：台湾省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 235612360000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbtws.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0032",             // 节点名称：西藏省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 27638530000,               // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0032",                              // 节点名称：西藏省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 27638530000,                                // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbxzs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0033",             // 节点名称：新疆省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 98804420000,               // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0033",                              // 节点名称：新疆省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 98804420000,                                // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbxjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0034",             // 节点名称：西康省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 45130980000,               // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0034",                              // 节点名称：西康省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 45130980000,                                // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbxks.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0035",             // 节点名称：阿里省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 26279990000,               // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0035",                              // 节点名称：阿里省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 26279990000,                                // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbals.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0036",             // 节点名称：葱岭省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 78330210000,               // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0036",                              // 节点名称：葱岭省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 78330210000,                                // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbcls.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0037",             // 节点名称：天山省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 56341640000,               // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0037",                              // 节点名称：天山省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 56341640000,                                // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbtss.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0038",             // 节点名称：河西省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 46647270000,               // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0038",                              // 节点名称：河西省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 46647270000,                                // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbhxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0039",             // 节点名称：昆仑省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 8934150000,                // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0039",                              // 节点名称：昆仑省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 8934150000,                                 // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbkls.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0040",             // 节点名称：河套省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 121107800000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0040",                              // 节点名称：河套省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 121107800000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbhts.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0041",             // 节点名称：热河省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 154895620000,              // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0041",                              // 节点名称：热河省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 154895620000,                               // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbrhs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0042",             // 节点名称：兴安省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 39910800000,               // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0042",                              // 节点名称：兴安省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 39910800000,                                // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbxas.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         {
-          "node_id": "prb_pos_node_0043",             // 节点名称：合江省权益节点
-          "public_key": "0xd43593c715fdd31c...",      // 公钥：用于交易验证（占位符）
-          "transaction_address": "5GrwvaEF5...",      // 交易钱包地址（占位符）
-          "stake_address": "5DStakeAddress2...",      // 质押钱包地址（占位符）
-          "stake_balance": 87384580000,               // 质押金额
-          "mutable": false                            // 初始43个省储行权益节点不可增删改
+          "node_id": "prb_pos_node_0043",                              // 节点名称：合江省权益节点
+          "public_key": "0xd43593c715fdd31c...",                       // 公钥：用于交易验证（占位符）
+          "transaction_address": "wmbGrwvaEF5...",                     // 交易钱包地址（占位符）
+          "stake_address": "wmbDStakeAddress2...",                     // 质押钱包地址（占位符）
+          "stake_balance": 87384580000,                                // 质押金额
+          "mutable": false                                             // 初始43个省储行权益节点不可增删改
+          "/dns4/prbhjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",     // P2P网络地址，域名地址+PeerID地址
         },
         ],
       },
