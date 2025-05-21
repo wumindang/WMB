@@ -1,0 +1,721 @@
+{
+    "name": "wuminbi",
+    "id": "88711",
+    "protocolId": "wmb_0.0.0.0.1",
+    "bootNodes": [
+      "/dns4/nrcgch.wuminbi.com/tcp/30333/p2p/12D3KooWABC...",
+      "/dns4/prczss.wuminbi.com/tcp/30333/p2p/12D3KooWNode001...",
+      "/dns4/prclns.wuminbi.com/tcp/30333/p2p/12D3KooWNode002...", 
+      "/dns4/prcgds.wuminbi.com/tcp/30333/p2p/12D3KooWNode003...", 
+      "/dns4/prcgxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode004...", 
+      "/dns4/prcfjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode005...", 
+      "/dns4/prchns.wuminbi.com/tcp/30333/p2p/12D3KooWNode006...", 
+      "/dns4/prcyns.wuminbi.com/tcp/30333/p2p/12D3KooWNode007...", 
+      "/dns4/prcgzs.wuminbi.com/tcp/30333/p2p/12D3KooWNode008...", 
+      "/dns4/prchn1.wuminbi.com/tcp/30333/p2p/12D3KooWNode009...", 
+      "/dns4/prcjxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode010...",
+      "/dns4/prczjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode011...", 
+      "/dns4/prcjss.wuminbi.com/tcp/30333/p2p/12D3KooWNode012...", 
+      "/dns4/prcsds.wuminbi.com/tcp/30333/p2p/12D3KooWNode013...", 
+      "/dns4/prcsxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode014...", 
+      "/dns4/prchn2.wuminbi.com/tcp/30333/p2p/12D3KooWNode015...", 
+      "/dns4/prchbs.wuminbi.com/tcp/30333/p2p/12D3KooWNode016...", 
+      "/dns4/prchb1.wuminbi.com/tcp/30333/p2p/12D3KooWNode017...", 
+      "/dns4/prcsx1.wuminbi.com/tcp/30333/p2p/12D3KooWNode018...", 
+      "/dns4/prccqs.wuminbi.com/tcp/30333/p2p/12D3KooWNode019...", 
+      "/dns4/prcscs.wuminbi.com/tcp/30333/p2p/12D3KooWNode020...", 
+      "/dns4/prcgss.wuminbi.com/tcp/30333/p2p/12D3KooWNode021...", 
+      "/dns4/prcbps.wuminbi.com/tcp/30333/p2p/12D3KooWNode022...", 
+      "/dns4/prcbhs.wuminbi.com/tcp/30333/p2p/12D3KooWNode023...", 
+      "/dns4/prcsjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode024...", 
+      "/dns4/prcljs.wuminbi.com/tcp/30333/p2p/12D3KooWNode025...", 
+      "/dns4/prcjls.wuminbi.com/tcp/30333/p2p/12D3KooWNode026...", 
+      "/dns4/prcln1.wuminbi.com/tcp/30333/p2p/12D3KooWNode027...", 
+      "/dns4/prcnxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode028...", 
+      "/dns4/prcqhs.wuminbi.com/tcp/30333/p2p/12D3KooWNode029...",
+      "/dns4/prcahs.wuminbi.com/tcp/30333/p2p/12D3KooWNode030...", 
+      "/dns4/prctws.wuminbi.com/tcp/30333/p2p/12D3KooWNode031...", 
+      "/dns4/prcxzs.wuminbi.com/tcp/30333/p2p/12D3KooWNode032...", 
+      "/dns4/prcxjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode033...", 
+      "/dns4/prcxks.wuminbi.com/tcp/30333/p2p/12D3KooWNode034...", 
+      "/dns4/prcals.wuminbi.com/tcp/30333/p2p/12D3KooWNode035...", 
+      "/dns4/prccls.wuminbi.com/tcp/30333/p2p/12D3KooWNode036...",
+      "/dns4/prctss.wuminbi.com/tcp/30333/p2p/12D3KooWNode037...", 
+      "/dns4/prchxs.wuminbi.com/tcp/30333/p2p/12D3KooWNode038...", 
+      "/dns4/prckls.wuminbi.com/tcp/30333/p2p/12D3KooWNode039...", 
+      "/dns4/prchts.wuminbi.com/tcp/30333/p2p/12D3KooWNode040...",
+      "/dns4/prcrhs.wuminbi.com/tcp/30333/p2p/12D3KooWNode041...", 
+      "/dns4/prcxas.wuminbi.com/tcp/30333/p2p/12D3KooWNode042...", 
+      "/dns4/prchjs.wuminbi.com/tcp/30333/p2p/12D3KooWNode043..."  
+    ],
+    "telemetryEndpoints": null,
+    "genesis": {
+      "runtime": {
+        "system": {
+          "code": "0x1234..."
+        },
+        "genesis_philosophy": {
+          "declaration_of_wumin": "先有人类后有国家，是公民建立国家，国家是公民的国家，是公民治理国家，而不是国家统治公民，公民没有爱国的义务；国家政权的建立其基本原则是保护公民的生命权、自由权、财产权、反抗压迫权和选举与被选举权不受任何的非法侵犯，当国家政权无法保证这一基本原则时，公民有权有义务推翻这个政权，建立一个以保障公民生命权、自由权、财产权、反抗压迫权和选举与被选举权为基本原则的政权。",
+          "wuminism": "中华民族联邦共和国国家名称是基于中华各民族悠久历史与璀璨文化的沉淀，全称为：中华民族联邦共和国，简称为：中华联邦，或中国及中华民国；中华民族联邦共和国是致力于推行五民主义———公民治理国家（民治）、实现民主共和（民主）、保障公民权利（民权）、建设民生社会（民生）、复兴民族文化（民族）———的联邦制共和国"
+        },
+        "balances": [
+          { "address": "0x63e2690b28414c681977c19d0d612625c7901e6b04458da4176ba4874fd2113f", "balance": 161023431413900 },
+          { "address": "0xe429392955e3b03f8987d22e74b5a2d42b85a85495a98e2091060f46cc302136", "balance": 109139020000 },
+          { "address": "0x743b8fd14c75fbd4c91fc1f682ca625616edf71caa439b1044a81c17d9772839", "balance": 281570640000 },
+          { "address": "0x366ac468abb3aa37589d11df876c161c51aade201e1853ceeb57488a755a110d", "balance": 1060128640000 },
+          { "address": "0x2a2082ab3be8cb6a9ac577a7a482cbc62838437e904f1da940041e66d00d443c", "balance": 501268040000 },
+          { "address": "0x120b38cb2dbdfb877eb9d8a4aaa8240ee2f177f49ac51c702680ac441fbbf63b", "balance": 415400860000 },
+          { "address": "0x80699804dec98eb41e76de63dfa32630f2d06ec13709fe151efc0e5652b2b22c", "balance": 100812320000 },
+          { "address": "0xb00d4873984cfb5334eff74e79fbe9f693d7688c9fac9df6892b48a1db3e4664", "balance": 468217660000 },
+          { "address": "0x14b1db9cb6636bb04c8c0bdc16883eda77470a53085d7a69edab49bbdc44850c", "balance": 385621480000 },
+          { "address": "0xf61dac348369192c555f3a6f443ba07bb322cdebfa6ff47696ad6cb8bbd52a1f", "balance": 664448640000 },
+          { "address": "0x503f6b8bdc85781289dbff9d4783fee9bb8e998b4b6b6261c426d7109d7bda49", "balance": 451886350000 },
+          { "address": "0x8eb158af26c5200cb78f99eab365f02114790adf67985f8b93c77158af869914", "balance": 645675880000 },
+          { "address": "0x98a33988269a045773bd3f66f561198d17f6714a4d1edfd14ee5566f090a750d", "balance": 847480160000 },
+          { "address": "0x14c9f50b2ece03896047aff016e3e7ddfb8ea881b537864408283f819893df70", "balance": 1015274530000 },
+          { "address": "0xae8db621e08709dff763f3bd8361c0cd70c98db1ba83e0f9034b23bc6f5dc06c", "balance": 349156160000 },
+          { "address": "0xe23bcd551fc7802eb96e3d830df4b91d59947a325a3577e934fbbcb428f0c93f", "balance": 993655190000 },
+          { "address": "0x04d7f11a04f03fb00ab6ab73197a8cbbc8b01a95802bd2865b5a08f0cb6ee247", "balance": 562820210000 },
+          { "address": "0xfc79abc72d72d85c463866d12af6481e08d782df6c626aef5f69f28a4a39c631", "balance": 545435530000 },
+          { "address": "0x1681e4ac7a82bb57f56e8b4753623cdd42a455edc4409bbcd9258d7884cc043b", "balance": 338241010000 },
+          { "address": "0xfc07d46fde8e0c02b8467e7c79005ba5818ff48779496c17ccdc30f8c0f2ae56", "balance": 320541590000 },
+          { "address": "0x54f959013b31fbea54d020c3c5fdab5d06398eba577d749128c4527f02908055", "balance": 803102450000 },
+          { "address": "0xacb01b90db422448ed0406d2b914871e11a16d3d27af86e4706c31a70389d725", "balance": 206174650000 },
+          { "address": "0xcc74a9343c8e6ab9bdd93060397583e8dafa2343c783925e9d8f2f507494dc70", "balance": 218930950000 },
+          { "address": "0x4e1b7b96d7f525b9dcc9496a101154474a9d24dba0f50755c9bc066f00300368", "balance": 247208710000 },
+          { "address": "0x88d7eb8edbcee1f7dfe8f0750d5faa32d33657e4dff00948fa7b2afc63a7d105", "balance": 248708950000 },
+          { "address": "0xf2ea0f6dbc76849807589504aef5e524b554de3e0898617f38cbc29d2d08d050", "balance": 227803540000 },
+          { "address": "0x448e7616718d1834d43ebfae38b5d4582e3431c8edf44b9ddd227df15a14bd00", "balance": 240734530000 },
+          { "address": "0x14c6a1b01f309ee53e17b5fadfc840d7713b3ff44ad3fc5ad5656e8b071f092f", "balance": 425914070000 },
+          { "address": "0x246b6ae6e66eb1c7e2afe835e20ce34466f53b058f1a2d714ca4505bf04f3032", "balance": 72026540000 },
+          { "address": "0xba096e41228a6b74f3e3308dbb52e6cf2f6ac77b11f8e844c8d82f2a90947919", "balance": 50305420000 },
+          { "address": "0xd42198407e26bf5f030b99d4d8a57b8ea1b79e2fbd0946495b082d241bd4b719", "balance": 610271710000 },
+          { "address": "0x7ad68c2854dcf7f0ef7f87be6e00179e5725fc490d1e0922c1bab431d9580175", "balance": 235612360000 },
+          { "address": "0xec6f3c4cb06ccae833cbc2f03a093942341790b06be47dee4d3ef8d243e77118", "balance": 27638530000 },
+          { "address": "0xeabebe6411a8b8ddb1a72498f532a02838e1bf90aa94ce8c798aaa7e197dd901", "balance": 98804420000 },
+          { "address": "0xbab75ce814c57941638b66440954d611fe19fc4fc9ff16b698566faece719453", "balance": 45130980000 },
+          { "address": "0x56102c196455fe656fada0e137153573fce7b5f1f5d6b7bd856135c9fa7d601f", "balance": 26279990000 },
+          { "address": "0x8682612ec5b831b495d893d0a53338519a61496135a6cdc07471444fce4d4f7c", "balance": 78330210000 },
+          { "address": "0xf8b72becfecfce5462b51ee90cc4c47cf312c81365646518a8a7ab1f96089a19", "balance": 56341640000 },
+          { "address": "0x5465ab03c0d4993aa6afe95d1c17a712521cb06e57977884517c6b8b70f20e5f", "balance": 46647270000 },
+          { "address": "0x4c1e5e2a5f15543ea0455c4b2b2f38a1586e3e568aa37894a4ffa76032c33632", "balance": 8934150000 },
+          { "address": "0x9819d4d3606124c7dcdbdbf4821ea61195845470e1b9ced2d11e06bd60bdcd08", "balance": 121107800000 },
+          { "address": "0x80d01d6198a9121e98724cae237f4a9a8f425932db77ee94026408eab50a2548", "balance": 154895620000 },
+          { "address": "0xa6f2daffe8d06fc5948a9ed606ebae529e348ae4f94c5f5e69867caffcee084a", "balance": 39910800000 },
+          { "address": "0x16baa06b70cb409622766d05703c4fdd2dc1545eaf5b3a9bcf65c3fbe8413077", "balance": 87384580000 }
+        ],
+        "validator_set": [
+          {
+            "node_name" :"中枢省公民储备银行权益节点",
+            "multisig_address": "0x30f487dac5f5f9d76095c1bd85e8dcb2b46759fcba0aa5a1a82c644f542b1564",
+            "stake_address": "0xe429392955e3b03f8987d22e74b5a2d42b85a85495a98e2091060f46cc302136",
+            "stake_balance": 109139020000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbzss.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"岭南省公民储备银行权益节点",
+            "multisig_address": "0x724fcb7cc1e6e2460f3d7d1e7ec0daf7f2081d59d5a1e7ab908a07c2c46576eb",
+            "stake_address": "0x743b8fd14c75fbd4c91fc1f682ca625616edf71caa439b1044a81c17d9772839",
+            "stake_balance": 281570640000,
+            "mutable": false,
+            "p2p_address": "/dns4/prblns.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"广东省公民储备银行权益节点",
+            "multisig_address": "0x0d2f255f581cb09b4f36d82ae12298552abe86babd10851576f828deb9020dd0", 
+            "stake_address": "0x366ac468abb3aa37589d11df876c161c51aade201e1853ceeb57488a755a110d",
+            "stake_balance": 1060128640000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbgds.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"广西省公民储备银行权益节点",
+            "multisig_address": "0xbb4ae216f8cda5b2180d733aa1edda28160a0c9c03067042061969905a358e67", 
+            "stake_address": "0x2a2082ab3be8cb6a9ac577a7a482cbc62838437e904f1da940041e66d00d443c",
+            "stake_balance": 501268040000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbgxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"福建省公民储备银行权益节点",
+            "multisig_address": "0xa8c1db8b1c5da3f1d4bf862eeec6bea4744f9e5901f65dd93bffdcef39eec7f9", 
+            "stake_address": "0x120b38cb2dbdfb877eb9d8a4aaa8240ee2f177f49ac51c702680ac441fbbf63b",
+            "stake_balance": 415400860000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbfjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"海南省公民储备银行权益节点",
+            "multisig_address": "0x5e16d017fa3599313ec621e5f15bd96c99225526fff3ee24c360549ec414d1c2", 
+            "stake_address": "0x80699804dec98eb41e76de63dfa32630f2d06ec13709fe151efc0e5652b2b22c",
+            "stake_balance": 100812320000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbhns.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"云南省公民储备银行权益节点",
+            "multisig_address": "0x3ad21bd830f2d4a63b2ac57e2e69e886f95a2fd399b1433144b15fb7b2ae5111", 
+            "stake_address": "0xb00d4873984cfb5334eff74e79fbe9f693d7688c9fac9df6892b48a1db3e4664",
+            "stake_balance": 468217660000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbyns.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"贵州省公民储备银行权益节点",
+            "multisig_address": "0xd4971b1090df16bae61349e7601bd0c82d204f57ce801dbc3af46b406c5d256a", 
+            "stake_address": "0x14b1db9cb6636bb04c8c0bdc16883eda77470a53085d7a69edab49bbdc44850c",
+            "stake_balance": 385621480000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbgzs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"湖南省公民储备银行权益节点",
+            "multisig_address": "0x19548ee765afc756693e1713a9c305a212a9a241cbac1f03dd3ff5d4cf29d447", 
+            "stake_address": "0xf61dac348369192c555f3a6f443ba07bb322cdebfa6ff47696ad6cb8bbd52a1f",
+            "stake_balance": 664448640000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbhn1.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"江西省公民储备银行权益节点",
+            "multisig_address": "0x8b01435dd50a1e3a791b28f2abcd46807bb7397cb8fb19ef1c5447f537a2659c", 
+            "stake_address": "0x503f6b8bdc85781289dbff9d4783fee9bb8e998b4b6b6261c426d7109d7bda49",
+            "stake_balance": 451886350000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbjxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"浙江省公民储备银行权益节点",
+            "multisig_address": "0x5a9b0789c80d39f715ae27e3f863525a650f1bddeaee25c0338d65074ab0a71e", 
+            "stake_address": "0x8eb158af26c5200cb78f99eab365f02114790adf67985f8b93c77158af869914",
+            "stake_balance": 645675880000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbzjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"江苏省公民储备银行权益节点",
+            "multisig_address": "0x546b2df22125e24145012fdb9a618785a579018b7716a718b27ef64c6b79e234", 
+            "stake_address": "0x98a33988269a045773bd3f66f561198d17f6714a4d1edfd14ee5566f090a750d",
+            "stake_balance": 847480160000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbjss.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"山东省公民储备银行权益节点",
+            "multisig_address": "0x47735c18911ccb4060e7de0ac983abc26366b6a5118d97bca8dc39574a93a4cf", 
+            "stake_address": "0x14c9f50b2ece03896047aff016e3e7ddfb8ea881b537864408283f819893df70",
+            "stake_balance": 1015274530000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbsds.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"山西省公民储备银行权益节点",
+            "multisig_address": "0x174a54bdae052bfe410d6f68b8beb5c40e32ad70727b71e8f37960b39dd73547", 
+            "stake_address": "0xae8db621e08709dff763f3bd8361c0cd70c98db1ba83e0f9034b23bc6f5dc06c",
+            "stake_balance": 349156160000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbsxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"河南省公民储备银行权益节点",
+            "multisig_address": "0x71ffbdf47d7c18cc2b94126b5b1a9605bb22d3a0f5ad8a5709bb58d920ab3fe8", 
+            "stake_address": "0xe23bcd551fc7802eb96e3d830df4b91d59947a325a3577e934fbbcb428f0c93f",
+            "stake_balance": 993655190000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbhn2.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"河北省公民储备银行权益节点",
+            "multisig_address": "0xda318c440a3627c6bf6c30d2a453aeadf7f78a284080f80858e07f32a58986c0", 
+            "stake_address": "0x04d7f11a04f03fb00ab6ab73197a8cbbc8b01a95802bd2865b5a08f0cb6ee247",
+            "stake_balance": 562820210000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbhbs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"湖北省公民储备银行权益节点",
+            "multisig_address": "0x3817953ebc878e431aee24eeed8fef66a0b6557aa1a63741305dc909c4a3ce3c", 
+            "stake_address": "0xfc79abc72d72d85c463866d12af6481e08d782df6c626aef5f69f28a4a39c631",
+            "stake_balance": 545435530000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbhb1.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"陕西省公民储备银行权益节点",
+            "multisig_address": "0x90e1358c2f11b97c90dd5c018ff1b979c393505af0d1b9af0ff975810c1e0690", 
+            "stake_address": "0x1681e4ac7a82bb57f56e8b4753623cdd42a455edc4409bbcd9258d7884cc043b",
+            "stake_balance": 338241010000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbsx1.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"重庆省公民储备银行权益节点",
+            "multisig_address": "0x8d8a3921c4e81ff9c669dc0c66d08f36ae43ec3ef3c065917e7cb1b6da82d767", 
+            "stake_address": "0xfc07d46fde8e0c02b8467e7c79005ba5818ff48779496c17ccdc30f8c0f2ae56",
+            "stake_balance": 320541590000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbcqs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"四川省公民储备银行权益节点",
+            "multisig_address": "0x956602b833f5deccb278c9e39304b6b91c589b5435ea561407791dabe3bb535c", 
+            "stake_address": "0x54f959013b31fbea54d020c3c5fdab5d06398eba577d749128c4527f02908055",
+            "stake_balance": 803102450000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbscs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"甘肃省公民储备银行权益节点",
+            "multisig_address": "0xb0ec8034009e161690bab766ea4d0e0cb4401dfd2118e6ba3fcfbbdf540193d7", 
+            "stake_address": "0xacb01b90db422448ed0406d2b914871e11a16d3d27af86e4706c31a70389d725",
+            "stake_balance": 206174650000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbgss.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"北平省公民储备银行权益节点",
+            "multisig_address": "0xc31df5170370f4efb645a609f0eac8f9cf7896ed8bb6c466e961d681eed4e396", 
+            "stake_address": "0xcc74a9343c8e6ab9bdd93060397583e8dafa2343c783925e9d8f2f507494dc70",
+            "stake_balance": 218930950000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbbps.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"滨海省公民储备银行权益节点",
+            "multisig_address": "0x1a3b4efc69e0ae545bd0350a76c2d8435556734f445300970a578242a0f388bc", 
+            "stake_address": "0x4e1b7b96d7f525b9dcc9496a101154474a9d24dba0f50755c9bc066f00300368",
+            "stake_balance": 247208710000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbbhs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"松江省公民储备银行权益节点",
+            "multisig_address": "0xf451de5d62028c72fc5cb305599a8279158989ee0ce497c1f1bbf6fcb1e86516", 
+            "stake_address": "0x88d7eb8edbcee1f7dfe8f0750d5faa32d33657e4dff00948fa7b2afc63a7d105",
+            "stake_balance": 248708950000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbsjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"龙江省公民储备银行权益节点",
+            "multisig_address": "0x57b5772977e8f734b0e427bbe7bbb3d867c4047f715352ca23b4ee2fef8b4e86", 
+            "stake_address": "0xf2ea0f6dbc76849807589504aef5e524b554de3e0898617f38cbc29d2d08d050",
+            "stake_balance": 227803540000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbljs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"吉林省公民储备银行权益节点",
+            "multisig_address": "0x0db59aac2ecafd3174c8ab27eeefecc809f0c103c3bd534ba9cce102769dc232", 
+            "stake_address": "0x448e7616718d1834d43ebfae38b5d4582e3431c8edf44b9ddd227df15a14bd00",
+            "stake_balance": 240734530000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbjls.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"辽宁省公民储备银行权益节点",
+            "multisig_address": "0x3b81c7504a18adc67b65f15407d16a145f44dfa2d9ba7300f21c6c70feffde79", 
+            "stake_address": "0x14c6a1b01f309ee53e17b5fadfc840d7713b3ff44ad3fc5ad5656e8b071f092f",
+            "stake_balance": 425914070000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbln1.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"宁夏省公民储备银行权益节点",
+            "multisig_address": "0x7e351f9cfda7404a1bfdb8d7fa7d576785c97cafa72942d9f3e3df8dfac997e3", 
+            "stake_address": "0x246b6ae6e66eb1c7e2afe835e20ce34466f53b058f1a2d714ca4505bf04f3032",
+            "stake_balance": 72026540000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbnxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"青海省公民储备银行权益节点",
+            "multisig_address": "0xb092037c2b7e5ce49701819b13d7a6dacf44e5dd9dfbee59dbb06fb7799f2f49", 
+            "stake_address": "0xba096e41228a6b74f3e3308dbb52e6cf2f6ac77b11f8e844c8d82f2a90947919",
+            "stake_balance": 50305420000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbqhs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"安徽省公民储备银行权益节点",
+            "multisig_address": "0xbfe0b801065288741fd0fe87c4d7f2d8ac82309088c77e2484b062d8dab1f047", 
+            "stake_address": "0xd42198407e26bf5f030b99d4d8a57b8ea1b79e2fbd0946495b082d241bd4b719",
+            "stake_balance": 610271710000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbahs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"台湾省公民储备银行权益节点",
+            "multisig_address": "0x472977088f56f0dc01bb707ab35f79e6e0f991c6c94af5c6625d51b97e3cca3a", 
+            "stake_address": "0x7ad68c2854dcf7f0ef7f87be6e00179e5725fc490d1e0922c1bab431d9580175",
+            "stake_balance": 235612360000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbtws.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"西藏省公民储备银行权益节点",
+            "multisig_address": "0x7462406238d8ad3b7fa6a3792e703c1cf8567425d58ef7e4e8cd30a3ec4561f9", 
+            "stake_address": "0xec6f3c4cb06ccae833cbc2f03a093942341790b06be47dee4d3ef8d243e77118",
+            "stake_balance": 27638530000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbxzs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"新疆省公民储备银行权益节点",
+            "multisig_address": "0x54fc030d754d74edd2c8ca750ff600888f71061889d97fb8aaf1950891813819", 
+            "stake_address": "0xeabebe6411a8b8ddb1a72498f532a02838e1bf90aa94ce8c798aaa7e197dd901",
+            "stake_balance": 98804420000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbxjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"西康省公民储备银行权益节点",
+            "multisig_address": "0x27f1c6a4d4ab71d040b93cbbcdaf6a9c46930e5f7aa0890d74c384cc7451d656", 
+            "stake_address": "0xbab75ce814c57941638b66440954d611fe19fc4fc9ff16b698566faece719453",
+            "stake_balance": 45130980000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbxks.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"阿里省公民储备银行权益节点",
+            "multisig_address": "0x294a7a6c69bbcae6e707b23cd588cd67bfded231560e4680a79fbf4c925aa0e3", 
+            "stake_address": "0x56102c196455fe656fada0e137153573fce7b5f1f5d6b7bd856135c9fa7d601f",
+            "stake_balance": 26279990000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbals.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"葱岭省公民储备银行权益节点",
+            "multisig_address": "0xaf42ea89e91b778cdaac4545153c2e1e0b8aed23fe25a4ef8100ba48a2a4315d", 
+            "stake_address": "0x8682612ec5b831b495d893d0a53338519a61496135a6cdc07471444fce4d4f7c",
+            "stake_balance": 78330210000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbcls.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"天山省公民储备银行权益节点",
+            "multisig_address": "0x9cf58b51837bb803657b5454aa209f9ff15b1d736faf1cea27d0913a79f7c9f7", 
+            "stake_address": "0xf8b72becfecfce5462b51ee90cc4c47cf312c81365646518a8a7ab1f96089a19",
+            "stake_balance": 56341640000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbtss.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"河西省公民储备银行权益节点",
+            "multisig_address": "0x4424a2ea9065098e5905a506a2358eb982ab26adb4616b959f31b431dfc61894", 
+            "stake_address": "0x5465ab03c0d4993aa6afe95d1c17a712521cb06e57977884517c6b8b70f20e5f",
+            "stake_balance": 46647270000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbhxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"昆仑省公民储备银行权益节点",
+            "multisig_address": "0xfd5026b9d3fe1a38992dda7806d59dcaa99147f8ddafa8ab30c2a817401294c5", 
+            "stake_address": "0x4c1e5e2a5f15543ea0455c4b2b2f38a1586e3e568aa37894a4ffa76032c33632",
+            "stake_balance": 8934150000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbkls.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"河套省公民储备银行权益节点",
+            "multisig_address": "0x7a0ac1abdd58b110c58ad98c689deeb9c827444a105674265e81de3fda6f0b71", 
+            "stake_address": "0x9819d4d3606124c7dcdbdbf4821ea61195845470e1b9ced2d11e06bd60bdcd08",
+            "stake_balance": 121107800000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbhts.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"热河省公民储备银行权益节点",
+            "multisig_address": "0x50ac9cea91ef1a52a442e84e0bf2ea814fa9a1a6e03826c1ef4ec266beab234b", 
+            "stake_address": "0x80d01d6198a9121e98724cae237f4a9a8f425932db77ee94026408eab50a2548",
+            "stake_balance": 154895620000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbrhs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"兴安省公民储备银行权益节点",
+            "multisig_address": "0x27b86c438ebcca3093fb5110af6f59a48c01e6b16a418ce0c0e5ba459cfa8b98", 
+            "stake_address": "0xa6f2daffe8d06fc5948a9ed606ebae529e348ae4f94c5f5e69867caffcee084a",
+            "stake_balance": 39910800000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbxas.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          },
+          {
+            "node_name" :"合江省公民储备银行权益节点",
+            "multisig_address": "0x345f1a48b8e5fe846e7fce44b02cf6d24eafb210d74e3cf524ca7fa2566a0fc7", 
+            "stake_address": "0x16baa06b70cb409622766d05703c4fdd2dc1545eaf5b3a9bcf65c3fbe8413077",
+            "stake_balance": 87384580000,
+            "mutable": false,
+            "p2p_address": "/dns4/prbhjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+          }
+          ]
+        },
+    "nodeMapping": [
+      {
+        "node_name" :"国家储备委员会权威节点",
+        "multisig_address": "0x63e2690b28414c681977c19d0d612625c7901e6b04458da4176ba4874fd2113f",
+        "mutable": false,
+        "p2p_address": "/dns4/nrcgch.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"中枢省储备委员会权威节点",
+        "multisig_address": "0xc559c9de42201ad6c6bc5d4ce94b6e9a54da3ff0bef857a8e61f0bcec44cb3e8",
+        "mutable": false,
+        "p2p_address": "/dns4/prczss.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"岭南省储备委员会权威节点",
+        "multisig_address": "0x28b33f3aefeccced31d9bf688e82b91206058d336830304fbc06f9cf807b4c8d",
+        "mutable": false,
+        "p2p_address": "/dns4/prclns.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"广东省储备委员会权威节点",
+        "multisig_address": "0x3c947974c8cfb84fdfbd539aa6ac49e72fcc2a1ac001f76d251747b5976b3d1a",
+        "mutable": false,
+        "p2p_address": "/dns4/prcgds.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"广西省储备委员会权威节点",
+        "multisig_address": "0xf126681f584314befed43394ec2d1d353ce28a2d84406cbbed4d7c1160cf9b57",
+        "mutable": false,
+        "p2p_address": "/dns4/prcgxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"福建省储备委员会权威节点",
+        "multisig_address": "0xa8e602b9c72055aa075992a8a63ac73d1c057928c4cb8b0a4f0df2a4eac3701a",
+        "mutable": false,
+        "p2p_address": "/dns4/prcfjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"海南省储备委员会权威节点",
+        "multisig_address": "0x174d3fdf12a4b7cd661a297d0cf596ab1c6ade652ca8b54a25584feeda6e3fbf",
+        "mutable": false,
+        "p2p_address": "/dns4/prchns.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"云南省储备委员会权威节点",
+        "multisig_address": "0xd44c3f8c4f26a05f787021ca10871b5997b35a7712eb8d9f88e8907515d42a20",
+        "mutable": false,
+        "p2p_address": "/dns4/prcyns.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"贵州省储备委员会权威节点",
+        "multisig_address": "0x33194e58ccc1d1aefd61f9b6228d8d602ddc30dafe8e0ae7d6c8a6821ea55069",
+        "mutable": false,
+        "p2p_address": "/dns4/prcgzs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"湖南省储备委员会权威节点",
+        "multisig_address": "0x099e70eb2431b6ec526742df77229def77c224e09592aadf758f91ac183a84cc",
+        "mutable": false,
+        "p2p_address": "/dns4/prchn1.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },       
+       {
+        "node_name" :"江西省储备委员会权威节点",
+        "multisig_address": "0x08deb88a42dd958864b6ce12ca47fc41016a9e68be67be69ac32cbe0fd899477",
+        "mutable": false,
+        "p2p_address": "/dns4/prcjxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"浙江省储备委员会权威节点",
+        "multisig_address": "0x114d0658a03022c76fac5ffcf4b69c7c8898f758dd5a485ff5190d08f73aeda4",
+        "mutable": false,
+        "p2p_address": "/dns4/prczjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"江苏省储备委员会权威节点",
+        "multisig_address": "0xf4179100490878b2bb7553517bb7849c1455c5a0c4513a0984bb11a6e6b57418",
+        "mutable": false,
+        "p2p_address": "/dns4/prcjss.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"山东省储备委员会权威节点",
+        "multisig_address": "0xf42d40e44e4474ff3ce5eb767837be3419e83f789bbc12049feb6b5c2dda8596",
+        "mutable": false,
+        "p2p_address": "/dns4/prcsds.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"山西省储备委员会权威节点",
+        "multisig_address": "0xa624b2813e0a63473ecfcb2985d7a1355801e6676161fca65568ce9ff9c800f0",
+        "mutable": false,
+        "p2p_address": "/dns4/prcsxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"河南省储备委员会权威节点",
+        "multisig_address": "0xbf9e374b6fafd18b6866a6f52654913998e4f0194430167fda970029a030dc61",
+        "mutable": false,
+        "p2p_address": "/dns4/prchn2.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"河北省储备委员会权威节点",
+        "multisig_address": "0x05f49f2630fc039a0f5e146d35494afcf6f48c3ddf40c4b711e725d395597011",
+        "mutable": false,
+        "p2p_address": "/dns4/prchbs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"湖北省储备委员会权威节点",
+        "multisig_address": "0x9090f41ed2e362c668c61ebc4ef1e1d5c77589cc5d0eeb167838c53de5812091",
+        "mutable": false,
+        "p2p_address": "/dns4/prchb1.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"陕西省储备委员会权威节点",
+        "multisig_address": "0x5f16f7e06db313934a499928ecdcdadf03790a8bde48188390b6cc74bdb71c0e",
+        "mutable": false,
+        "p2p_address": "/dns4/prcsx1.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"重庆省储备委员会权威节点",
+        "multisig_address": "0xfcc5ac9d5a5c022d5a39045497ed9f7891bcf7f4975ee3ec844eafddb1efda06",
+        "mutable": false,
+        "p2p_address": "/dns4/prccqs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"四川省储备委员会权威节点",
+        "multisig_address": "0x586f37534eb57db78044ac0adcd72a1cd36abca0b7cffa3a17e6e01f056e3f2a",
+        "mutable": false,
+        "p2p_address": "/dns4/prcscs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"甘肃省储备委员会权威节点",
+        "multisig_address": "0x1d82d6ce9e0de052aa6049f281663852ecdc617efcb503820a0405f2c0fe6ef4",
+        "mutable": false,
+        "p2p_address": "/dns4/prcgss.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"北平省储备委员会权威节点",
+        "multisig_address": "0x3b6ae38848cffef9617f01950bf0d0558389f6cc79238149a1399e3e148a3881",
+        "mutable": false,
+        "p2p_address": "/dns4/prcbps.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"滨海省储备委员会权威节点",
+        "multisig_address": "0x4fe5072d1b7438ade4f784fc0f0748cff51bf49c65900998d357784f4a7bef00",
+        "mutable": false,
+        "p2p_address": "/dns4/prcbhs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"松江省储备委员会权威节点",
+        "multisig_address": "0x8498ac9a729028b4c9813711fe39b77e89e644bfc8fe1377e808f385c5be1327",
+        "mutable": false,
+        "p2p_address": "/dns4/prcsjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"龙江省储备委员会权威节点",
+        "multisig_address": "0x62306582c0635ad9efa0972dda5ee9f96361ac278ecf99667fa9d70523c2039a",
+        "mutable": false,
+        "p2p_address": "/dns4/prcljs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"吉林省储备委员会权威节点",
+        "multisig_address": "0x9324d4cf80aeb24ca8cd3611c11b703c79264b93fa437744420c8319ffd04eda",
+        "mutable": false,
+        "p2p_address": "/dns4/prcjls.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"辽宁省储备委员会权威节点",
+        "multisig_address": "0xd546e667c6d1aee9380b192729a19762cadeb798f73f609b931d1f1216894db4",
+        "mutable": false,
+        "p2p_address": "/dns4/prcln1.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"宁夏省储备委员会权威节点",
+        "multisig_address": "0x025bf73107848a41ec7542d4e0bc6770f86e7daf1b8b0c00a10f15b8584651b2",
+        "mutable": false,
+        "p2p_address": "/dns4/prcnxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"青海省储备委员会权威节点",
+        "multisig_address": "0x912796eecdea87c585fe8cb3151e168cde2b3338e4d1b31ecbd76ee4fa905b1d",
+        "mutable": false,
+        "p2p_address": "/dns4/prcqhs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"安徽省储备委员会权威节点",
+        "multisig_address": "0xa365d1df504fba71d19166363429fea376b178d799a9ef97a24929449c2cfda8",
+        "mutable": false,
+        "p2p_address": "/dns4/prcahs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"台湾省储备委员会权威节点",
+        "multisig_address": "0x6109a725607ff7db359fe253ef65e01a643de3a8330820a43d397eea26d9bd7f",
+        "mutable": false,
+        "p2p_address": "/dns4/prctws.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"西藏省储备委员会权威节点",
+        "multisig_address": "0x26febf80f82f15fa6939c132e6e1042f22827d98e4a2f2c0699efba880f5e5a7",
+        "mutable": false,
+        "p2p_address": "/dns4/prcxzs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"新疆省储备委员会权威节点",
+        "multisig_address": "0xa54385d7f978e0b98f0da5eecea1a1fc011631a88df7721770b17357a2e81fd0",
+        "mutable": false,
+        "p2p_address": "/dns4/prcxjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"西康省储备委员会权威节点",
+        "multisig_address": "0x8778a3f9a0ffbe45e5f905532012cb41b329a702507e80b80cad0d93d3b66c26",
+        "mutable": false,
+        "p2p_address": "/dns4/prcxks.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"阿里省储备委员会权威节点",
+        "multisig_address": "0x6438f03db0c07b5762db811b4bda06200fa15d592234a6fa9e527fc605f3b380",
+        "mutable": false,
+        "p2p_address": "/dns4/prcals.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"葱岭省储备委员会权威节点",
+        "multisig_address": "0x3e2fca02084bad788a52bfb13595889780dd0768b61926ed7260539cfffd0956",
+        "mutable": false,
+        "p2p_address": "/dns4/prccls.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"天山省储备委员会权威节点",
+        "multisig_address": "0xea9b35ad3a47e2212c8c6a72b4d70d9540551b23631cd60a5472a45b60ef3c6b",
+        "mutable": false,
+        "p2p_address": "/dns4/prctss.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"河西省储备委员会权威节点",
+        "multisig_address": "0x3c59efbd5989bc4a3248406d9662155af94f68599648ea8e28c2866cae4ed387",
+        "mutable": false,
+        "p2p_address": "/dns4/prchxs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"昆仑省储备委员会权威节点",
+        "multisig_address": "0xdfe9f4a3c6c935d83e6512c10c67b6ce10a2634240b46a8f6ac285a33270470b",
+        "mutable": false,
+        "p2p_address": "/dns4/prckls.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"河套省储备委员会权威节点",
+        "multisig_address": "0xda1c80ec5b0253d40e53965d1ece8ff00015e0d247054dac42ca979d74b55696",
+        "mutable": false,
+        "p2p_address": "/dns4/prchts.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"热河省储备委员会权威节点",
+        "multisig_address": "0xff339c994e05dd2023dfcc3ce9b95f591ae6b53810858bc3163aca90c70d1630",
+        "mutable": false,
+        "p2p_address": "/dns4/prcrhs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"兴安省储备委员会权威节点",
+        "multisig_address": "0xc6707496155c49238a7ccf7d7f728c164be85da0478146e5761bfdc6e7c976ed",
+        "mutable": false,
+        "p2p_address": "/dns4/prcxas.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       },
+       {
+        "node_name" :"合江省储备委员会权威节点",
+        "multisig_address": "0x46384af255c69b8a6664226fab9d22a2c47cbea414df7f2652cdc4d89be7cde4",
+        "mutable": false,
+        "p2p_address": "/dns4/prchjs.wuminbi.com/tcp/30333/p2p/12D3KooWABC..."
+       }
+       ]
+    }
+  }

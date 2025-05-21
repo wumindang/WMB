@@ -1,0 +1,25 @@
+[package]
+name = "WMB"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "WMB"
+path = "main.rs"
+
+[workspace]
+members = ["core"]
+edition = "2021"
+resolver = "2" # 解决警告，统一使用 2021 版解析器
+
+[dependencies]
+core = { path = "core" }
+rand = "0.9.0"         # OsRng 随机数生成
+bip39 = "2.1.0"         # BIP-39 助记词
+pbkdf2 = "0.12.2"       # PBKDF2 种子生成
+sha2 = "0.10"           # SHA-512 哈希
+blake2 = "0.10"         # Blake2-256 校验和
+base58 = "0.2"          # Base58 编码
+hex = "0.4"             # 十六进制显示
+sp-core = { version = "5.0", default-features = false, features = ["full_crypto"] }
+bs58 = "0.5.1"
