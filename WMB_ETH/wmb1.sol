@@ -1,8 +1,3 @@
-//  Created By: PandaTool
-//  Website: https://PandaTool.org
-//  Telegram: https://t.me/PandaTool
-//  The Best Tool for Token Management
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
