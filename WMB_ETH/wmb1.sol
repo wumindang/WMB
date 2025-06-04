@@ -113,7 +113,28 @@ library Address {
     }
 
     function functionCall(
-        address target,
+            address target,
+            bytes memory data,
+            uint256 value,
+            string memory errorMessage
+        ) internal returns (bytes memory) {
+            require(address(this).balance >= value, "Address: insufficient balance");
+            require(isContract(target), "Address: call to non-contract");
+    
+            (bool success, bytes memory returndata) = target.call{value: value}(data);
+            if (success) {
+                return returndata;
+            } else {
+                if (returndata.length > 0) {
+                    assembly {
+                        let returndata_size := mload(returndata)
+                        revert(add(32, returndata), returndata_size)
+                    }
+                } else {
+                    revert(errorMessage);
+                }
+            }
+        }
         bytes memory data,
         string memory errorMessage
     ) internal returns (bytes memory) {
